@@ -255,7 +255,7 @@ a:hover,
 a:focus,
 a:active {
     outline: 0;
-    color: #00955e;
+    color: #a12880;
 }
 
 img {
@@ -1305,7 +1305,7 @@ h6,
 
 .tc-base-white-hover,
 .tc-light a:not(.btn):not([class*="link-"]):hover {
-    color: #00955e;
+    color: #a12880;
 }
 
 .tc-default,
@@ -1329,7 +1329,7 @@ h6,
 
 .tc-secondary,
 .tc-secondary a {
-    color: #00955e !important;
+    color: #a12880 !important;
 }
 
 .tc-secondary a:hover {
@@ -1415,7 +1415,7 @@ h6,
 }
 
 .bg-secondary {
-    background-color: #00955e !important;
+    background-color: #a12880 !important;
 }
 
 .bg-light {
@@ -1463,11 +1463,11 @@ h6,
 }
 
 .bg-grad {
-    background-image: linear-gradient(90deg, #a12880 0%, #00955e 100%) !important;
+    background-image: linear-gradient(90deg, #a12880 0%, #a12880 100%) !important;
 }
 
 .bg-grad-alt {
-    background-image: linear-gradient(90deg, #00955e 0%, #a12880 100%) !important;
+    background-image: linear-gradient(90deg, #a12880 0%, #a12880 100%) !important;
 }
 
 .bg-grad-special {
@@ -1475,11 +1475,11 @@ h6,
 }
 
 .bg-grad-special-alt {
-    background-image: linear-gradient(to top, #00955e 0%, #00955e 5%, rgba(0, 0, 0, 0) 40%, rgba(0, 0, 0, 0) 100%);
+    background-image: linear-gradient(to top, #a12880 0%, #a12880 5%, rgba(0, 0, 0, 0) 40%, rgba(0, 0, 0, 0) 100%);
 }
 
 .bg-grad-vr-theme-to-alt {
-    background-image: linear-gradient(to bottom, #a12880 0%, #00955e 100%) !important;
+    background-image: linear-gradient(to bottom, #a12880 0%, #a12880 100%) !important;
 }
 
 .bg-grad-vr-theme-dark-to-dark-alt {
@@ -1487,7 +1487,7 @@ h6,
 }
 
 .bg-grad-vr-alt-to-theme {
-    background-image: linear-gradient(to top, #a12880 0%, #00955e 100%) !important;
+    background-image: linear-gradient(to top, #a12880 0%, #a12880 100%) !important;
 }
 
 .bg-grad-vr-dark-alt-to-theme-dark-to-theme {
@@ -1584,23 +1584,23 @@ h6,
 }
 
 .bg-theme-grad {
-    background-image: linear-gradient(to right, #28d75f 0%, #8f1156 100%) !important;
+    background-image: linear-gradient(to right, #d728c8 0%, #8f1156 100%) !important;
 }
 
 .bg-theme-grad-alt {
-    background-image: linear-gradient(to right, #28d75f 0%, #8f1156 100%) !important;
+    background-image: linear-gradient(to right, #d728c8 0%, #8f1156 100%) !important;
 }
 
 .bg-theme-grad-s2 {
-    background-image: linear-gradient(135deg, #28d75f 0%, #8f1156 100%) !important;
+    background-image: linear-gradient(135deg, #d728c8 0%, #8f1156 100%) !important;
 }
 
 .bg-theme-grad-s2-alt {
-    background-image: linear-gradient(135deg, #28d75f 0%, #8f1156 100%) !important;
+    background-image: linear-gradient(135deg, #d728c8 0%, #8f1156 100%) !important;
 }
 
 .bg-theme-grad-alternet {
-    background-image: linear-gradient(to right, #28d75f 0%, #8f1156 100%) !important;
+    background-image: linear-gradient(to right, #d728c8 0%, #8f1156 100%) !important;
 }
 
 .bg-theme-dark {
@@ -1644,7 +1644,7 @@ h6,
 }
 
 .bg-theme-accent-alt {
-    background-color: #00955e !important;
+    background-color: #a12880 !important;
 }
 
 .bg-theme-accent-alt.current {
@@ -1656,7 +1656,7 @@ h6,
 }
 
 .bg-blend-alt:before {
-    background-image: linear-gradient(to bottom, rgba(0, 0, 0, 0) 0%, #00955e);
+    background-image: linear-gradient(to bottom, rgba(0, 0, 0, 0) 0%, #a12880);
 }
 
 .bg-blend-light {
@@ -1684,7 +1684,7 @@ h6,
 }
 
 .text-primary-alt {
-    color: #00955e !important;
+    color: #a12880 !important;
 }
 
 .text-theme-alt {
@@ -4242,7 +4242,7 @@ hr {
 }
 
 .alert-secondary-alt {
-    background: #00955e;
+    background: #a12880;
 }
 
 .alert-secondary-alt .close {
@@ -4353,7 +4353,7 @@ hr {
 
 .btn-grad {
     border: none;
-    background-image: linear-gradient(to right, #a12880 0%, #00955e 100%);
+    background-image: linear-gradient(to right, #a12880 0%, #a12880 100%);
 }
 
 .btn-grad:before {
@@ -4367,7 +4367,7 @@ hr {
     border-radius: 5px;
     opacity: 0;
     transition: all .5s;
-    background-image: linear-gradient(to right, #00955e 0%, #a12880 100%);
+    background-image: linear-gradient(to right, #a12880 0%, #a12880 100%);
 }
 
 .btn-grad:hover:before {
@@ -4380,43 +4380,43 @@ hr {
 }
 
 .btn-grad-alt {
-    background-image: linear-gradient(to right, #00955e 0%, #a12880 100%);
+    background-image: linear-gradient(to right, #a12880 0%, #a12880 100%);
 }
 
 .btn-grad-alt:before {
-    background-image: linear-gradient(to right, #a12880 0%, #00955e 100%);
+    background-image: linear-gradient(to right, #a12880 0%, #a12880 100%);
 }
 
 .btn-grad-alternet {
-    background-image: linear-gradient(to right, #00955e 0%, #a12880 100%);
+    background-image: linear-gradient(to right, #a12880 0%, #a12880 100%);
 }
 
 .btn-grad-alternet:before {
-    background-image: linear-gradient(to right, #a12880 0%, #00955e 100%);
+    background-image: linear-gradient(to right, #a12880 0%, #a12880 100%);
 }
 
 .btn-grad-alternet-alt {
-    background-image: linear-gradient(to right, #a12880 0%, #00955e 100%);
+    background-image: linear-gradient(to right, #a12880 0%, #a12880 100%);
 }
 
 .btn-grad-alternet-alt:before {
-    background-image: linear-gradient(to right, #00955e 0%, #a12880 100%);
+    background-image: linear-gradient(to right, #a12880 0%, #a12880 100%);
 }
 
 .btn-grad-theme {
-    background-image: linear-gradient(to right, #a12880 0%, #00955e 100%);
+    background-image: linear-gradient(to right, #a12880 0%, #a12880 100%);
 }
 
 .btn-grad-theme:before {
-    background-image: linear-gradient(to right, #00955e 0%, #a12880 100%);
+    background-image: linear-gradient(to right, #a12880 0%, #a12880 100%);
 }
 
 .btn-grad-theme-alt {
-    background-image: linear-gradient(to right, #00955e 0%, #a12880 100%);
+    background-image: linear-gradient(to right, #a12880 0%, #a12880 100%);
 }
 
 .btn-grad-theme-alt:before {
-    background-image: linear-gradient(to right, #a12880 0%, #00955e 100%);
+    background-image: linear-gradient(to right, #a12880 0%, #a12880 100%);
 }
 
 .btn:hover,
@@ -4550,7 +4550,7 @@ hr {
 }
 
 .btn-outline.on-bg-theme-alt:before {
-    background-color: #00955e;
+    background-color: #a12880;
 }
 
 .btn-outline.on-bg-theme-dark:before {
@@ -4590,8 +4590,8 @@ hr {
 
 .btn-primary:hover,
 .btn-primary:focus {
-    background-color: #00955e;
-    border-color: #00955e;
+    background-color: #a12880;
+    border-color: #a12880;
 }
 
 .btn-primary:hover:focus,
@@ -4601,8 +4601,8 @@ hr {
 
 .tc-light .btn-primary:hover,
 .tc-light .btn-primary:focus {
-    background-color: #00955e;
-    border-color: #00955e;
+    background-color: #a12880;
+    border-color: #a12880;
     color: #fff !important;
 }
 
@@ -4613,8 +4613,8 @@ hr {
 }
 
 .btn-secondary {
-    background-color: #00955e;
-    border-color: #00955e;
+    background-color: #a12880;
+    border-color: #a12880;
 }
 
 .btn-secondary:hover,
@@ -4629,8 +4629,8 @@ hr {
 
 .btn-secondary.btn-outline:hover,
 .btn-secondary.btn-outline:focus {
-    background-color: #00955e;
-    border-color: #00955e;
+    background-color: #a12880;
+    border-color: #a12880;
 }
 
 .btn-info {
@@ -4834,11 +4834,11 @@ hr {
 }
 
 .btn-play:hover {
-    color: #00955e !important;
+    color: #a12880 !important;
 }
 
 .btn-play-s2 {
-    background-image: linear-gradient(to right, #a12880 0%, #00955e 100%);
+    background-image: linear-gradient(to right, #a12880 0%, #a12880 100%);
     border: none;
 }
 
@@ -4867,7 +4867,7 @@ hr {
 }
 
 .bg-theme-alt .btn-play-s2:before {
-    background: #00955e;
+    background: #a12880;
 }
 
 .bg-theme-dark .btn-play-s2:before {
@@ -4890,7 +4890,7 @@ hr {
 .btn-play-icon {
     height: 20px;
     width: 14px;
-    background: linear-gradient(to right, #a12880 0%, #00955e 100%);
+    background: linear-gradient(to right, #a12880 0%, #a12880 100%);
     display: block;
     position: absolute;
     top: 50%;
@@ -4925,7 +4925,7 @@ hr {
 
 .bg-theme-alt .btn-play-icon:before,
 .bg-theme-alt .btn-play-icon:after {
-    border-right-color: #00955e;
+    border-right-color: #a12880;
 }
 
 .bg-theme-dark .btn-play-icon:before,
@@ -4967,7 +4967,7 @@ hr {
 }
 
 .btn-play-dark:hover {
-    color: #00955e;
+    color: #a12880;
 }
 
 .btn-play-wrap {
@@ -5142,11 +5142,11 @@ hr {
 
 .btn-with-icon.btn-light .icon {
     color: #fff;
-    background: #00955e;
+    background: #a12880;
 }
 
 .btn-with-icon.btn-light:hover {
-    color: #00955e !important;
+    color: #a12880 !important;
 }
 
 .btn-with-icon.btn-light:hover .icon {
@@ -5347,9 +5347,9 @@ hr {
 }
 
 .badge-secondary {
-    background-color: #00955e;
-    border-color: #00955e;
-    color: #00955e;
+    background-color: #a12880;
+    border-color: #a12880;
+    color: #a12880;
 }
 
 .badge-info {
@@ -5447,7 +5447,7 @@ hr {
     display: inline-flex;
     align-items: center;
     font-size: 12px;
-    color: #00955e;
+    color: #a12880;
     font-weight: 500;
     letter-spacing: 0.005rem;
     white-space: nowrap;
@@ -5522,11 +5522,11 @@ hr {
 }
 
 .link-primary:hover {
-    color: #00955e !important;
+    color: #a12880 !important;
 }
 
 .link-primary:hover .link-icon.icon-circle {
-    background: #00955e;
+    background: #a12880;
 }
 
 .link-light {
@@ -5845,7 +5845,7 @@ a .title {
 .title-s7 span:first-child {
     display: block;
     padding-bottom: 13px;
-    color: #00955e;
+    color: #a12880;
     font-size: 1.35rem;
 }
 
@@ -6195,7 +6195,7 @@ a .title {
     background: transparent;
     position: absolute;
     border-radius: 50%;
-    border: 2px solid #00955e;
+    border: 2px solid #a12880;
     left: -38px;
     top: 7px;
 }
@@ -6206,7 +6206,7 @@ a .title {
     content: "";
     top: 50%;
     left: 50%;
-    background: #00955e;
+    background: #a12880;
 }
 
 .list-dot-bar li span:after {
@@ -7295,7 +7295,7 @@ textarea:-moz-placeholder {
 .progress-info span {
     font-weight: 500;
     font-size: 18px;
-    color: #00955e;
+    color: #a12880;
 }
 
 .progress-info-s2 {
@@ -7495,7 +7495,7 @@ ul.progress-info {
     font-weight: 700;
     height: 50px;
     width: 100%;
-    color: #00955e;
+    color: #a12880;
 }
 
 .tc-light .countdown-s3 .countdown-time {
@@ -8175,7 +8175,7 @@ ul.progress-info {
 }
 
 .breadcumb li a:hover:not([class]) {
-    color: #00955e !important;
+    color: #a12880 !important;
 }
 
 .preloader {
@@ -8235,7 +8235,7 @@ ul.progress-info {
 
 .preloader-alt:after,
 .preloader-alt:before {
-    background: #00955e;
+    background: #a12880;
 }
 
 .page-loaded .preloader.no-split:before,
@@ -8274,7 +8274,7 @@ ul.progress-info {
     left: 5px;
     right: 5px;
     bottom: 5px;
-    border-top-color: #00955e;
+    border-top-color: #a12880;
     animation: spin 3s linear infinite;
 }
 
@@ -8809,13 +8809,13 @@ ul.progress-info {
 }
 
 .nk-circle-animation.accent-alt:before {
-    border-top-color: #00955e;
-    border-right-color: #00955e;
+    border-top-color: #a12880;
+    border-right-color: #a12880;
 }
 
 .nk-circle-animation.accent-alt:after {
-    border-top-color: #00955e;
-    border-bottom-color: #00955e;
+    border-top-color: #a12880;
+    border-bottom-color: #a12880;
 }
 
 .nk-circle-pk {
@@ -9093,7 +9093,7 @@ ul.progress-info {
 }
 
 .social li a:hover .social-icon {
-    background: #00955e;
+    background: #a12880;
     color: #fff;
 }
 
@@ -9377,7 +9377,7 @@ ul.progress-info {
     top: 0;
     width: 100%;
     height: 100%;
-    border: 1px solid #00955e;
+    border: 1px solid #a12880;
     border-radius: 50%;
 }
 
@@ -9429,7 +9429,7 @@ ul.progress-info {
 
 .tab-nav li a:hover,
 .tab-nav li a.active {
-    color: #00955e;
+    color: #a12880;
 }
 
 .tab-nav li a .fas,
@@ -9536,7 +9536,7 @@ ul.progress-info {
 }
 
 .tc-light .tab-nav-s3 li a.active {
-    background: #00955e;
+    background: #a12880;
 }
 
 .bg-theme-alt .tab-nav-s3 li a.active {
@@ -9780,13 +9780,13 @@ ul.progress-info {
     content: '';
     z-index: -1;
     border-radius: 3px;
-    background: linear-gradient(-45deg, #a12880 0%, #00955e 100%);
+    background: linear-gradient(-45deg, #a12880 0%, #a12880 100%);
     opacity: 0;
     transition: all .4s;
 }
 
 .tc-light .tab-nav-grad li a:before {
-    background: linear-gradient(-45deg, #a12880 0%, #00955e 100%) !important;
+    background: linear-gradient(-45deg, #a12880 0%, #a12880 100%) !important;
 }
 
 .tab-nav-grad li a:hover,
@@ -9978,7 +9978,7 @@ ul.progress-info {
 .accordion-icon:before,
 .accordion-icon:after {
     line-height: 36px;
-    color: #00955e;
+    color: #a12880;
     font-family: "Font Awesome 5 Free";
     font-weight: 700;
     font-size: 13px;
@@ -9988,7 +9988,7 @@ ul.progress-info {
 
 .current .accordion-icon:before,
 .current .accordion-icon:after {
-    color: #00955e;
+    color: #a12880;
 }
 
 .accordion-icon:before {
@@ -10314,12 +10314,12 @@ hr+.nk-block {
 }
 
 .nk-block-shape-s1.bg-theme-alt {
-    background: #00955e;
+    background: #a12880;
 }
 
 .nk-block-shape-s1.bg-theme-alt:before,
 .nk-block-shape-s1.bg-theme-alt:after {
-    background: #00955e;
+    background: #a12880;
 }
 
 .nk-block-shape-s1.bg-theme-dark {
@@ -11379,7 +11379,7 @@ hr+.nk-block {
 }
 
 .gfx-screen .flex-control-nav li a.flex-active {
-    background: #00955e !important;
+    background: #a12880 !important;
 }
 
 .gfx-slide,
@@ -11570,11 +11570,11 @@ hr+.nk-block {
 .section-head-s3:before {
     top: 60px;
     margin-left: -80px;
-    background: #00955e;
+    background: #a12880;
 }
 
 .tc-light .section-head-s3:before {
-    background: #00955e;
+    background: #a12880;
 }
 
 .section-head-s3:after {
@@ -11811,7 +11811,7 @@ hr+.nk-block {
 }
 
 .feature-icon .icon-grd {
-    background-image: linear-gradient(-45deg, #a12880 0%, #00955e 80%, #00955e 100%);
+    background-image: linear-gradient(-45deg, #a12880 0%, #a12880 80%, #a12880 100%);
     -webkit-background-clip: text;
     -webkit-text-fill-color: transparent;
 }
@@ -11822,9 +11822,9 @@ hr+.nk-block {
     width: 36px;
     line-height: 36px;
     text-align: center;
-    color: #00955e;
+    color: #a12880;
     border-radius: 50%;
-    background-image: linear-gradient(-45deg, #a12880 0%, #00955e 80%, #00955e 100%);
+    background-image: linear-gradient(-45deg, #a12880 0%, #a12880 80%, #a12880 100%);
 }
 
 .feature-icon .icon-circle:after {
@@ -11844,7 +11844,7 @@ hr+.nk-block {
 }
 
 .bg-theme-alt .feature-icon .icon-circle:after {
-    background: #00955e;
+    background: #a12880;
 }
 
 .bg-theme-dark .feature-icon .icon-circle:after {
@@ -11917,12 +11917,12 @@ hr+.nk-block {
 }
 
 .feature-icon-s5-1 .icon {
-    color: #00955e;
+    color: #a12880;
     background: linear-gradient(-90deg, #fff 0%, #fff5f2 100%);
 }
 
 .tc-light .feature-icon-s5-1 .icon {
-    color: #00955e;
+    color: #a12880;
 }
 
 .feature-icon-s5-2 {
@@ -11934,12 +11934,12 @@ hr+.nk-block {
 }
 
 .feature-icon-s5-2 .icon {
-    color: #00955e;
+    color: #a12880;
     background: linear-gradient(-90deg, #fff 0%, #fff5f2 100%);
 }
 
 .tc-light .feature-icon-s5-2 .icon {
-    color: #00955e;
+    color: #a12880;
 }
 
 .feature-icon-s5-3 {
@@ -11980,7 +11980,7 @@ hr+.nk-block {
     width: 60px;
     height: 60px;
     border-radius: 50%;
-    background: linear-gradient(to right, #a12880 0%, #00955e 100%);
+    background: linear-gradient(to right, #a12880 0%, #a12880 100%);
     text-align: center;
     line-height: 60px;
 }
@@ -12484,7 +12484,7 @@ hr+.nk-block {
 }
 
 .tc-light .feature-document-s2 {
-    background: #00955e;
+    background: #a12880;
 }
 
 .feature-document-img {
@@ -12573,7 +12573,7 @@ hr+.nk-block {
     line-height: 40px;
     border-radius: 50%;
     color: #fff;
-    background: #00955e;
+    background: #a12880;
 }
 
 .feature-document-link:hover,
@@ -13227,19 +13227,19 @@ hr+.nk-block {
 }
 
 .roadmap-s6-1-2:before {
-    background: linear-gradient(90deg, #a12880 0%, #00955e 100%);
+    background: linear-gradient(90deg, #a12880 0%, #a12880 100%);
 }
 
 .roadmap-s6-1-2:after {
-    border-color: #00955e;
+    border-color: #a12880;
 }
 
 .roadmap-s6-1-2 .roadmap-head-s6:after {
-    background: #00955e;
+    background: #a12880;
 }
 
 .roadmap-s6-2-1:before {
-    background: linear-gradient(90deg, #00955e 0%, #a12880 100%);
+    background: linear-gradient(90deg, #a12880 0%, #a12880 100%);
 }
 
 .roadmap-s6-2-1:after {
@@ -13251,31 +13251,31 @@ hr+.nk-block {
 }
 
 .roadmap-s6-2-3:before {
-    background: linear-gradient(90deg, #00955e 0%, #00955e 100%);
+    background: linear-gradient(90deg, #a12880 0%, #a12880 100%);
 }
 
 .roadmap-s6-2-3:after {
-    border-color: #00955e;
+    border-color: #a12880;
 }
 
 .roadmap-s6-2-3 .roadmap-head-s6:after {
-    background: #00955e;
+    background: #a12880;
 }
 
 .roadmap-s6-3-2:before {
-    background: linear-gradient(90deg, #00955e 0%, #00955e 100%);
+    background: linear-gradient(90deg, #a12880 0%, #a12880 100%);
 }
 
 .roadmap-s6-3-2:after {
-    border-color: #00955e;
+    border-color: #a12880;
 }
 
 .roadmap-s6-3-2 .roadmap-head-s6:after {
-    background: #00955e;
+    background: #a12880;
 }
 
 .roadmap-s6-3-1:before {
-    background: linear-gradient(90deg, #00955e 0%, #a12880 100%);
+    background: linear-gradient(90deg, #a12880 0%, #a12880 100%);
 }
 
 .roadmap-s6-3-1:after {
@@ -13287,15 +13287,15 @@ hr+.nk-block {
 }
 
 .roadmap-s6-1-3:before {
-    background: linear-gradient(90deg, #a12880 0%, #00955e 100%);
+    background: linear-gradient(90deg, #a12880 0%, #a12880 100%);
 }
 
 .roadmap-s6-1-3:after {
-    border-color: #00955e;
+    border-color: #a12880;
 }
 
 .roadmap-s6-1-3 .roadmap-head-s6:after {
-    background: #00955e;
+    background: #a12880;
 }
 
 .roadmap-slider {
@@ -13353,7 +13353,7 @@ hr+.nk-block {
 }
 
 .bg-theme_alt .roadmap-wrap-ovl-right:after {
-    background-image: linear-gradient(90deg, rgba(0, 0, 0, 0) 0%, rgba(255, 108, 63, 0.8) 25%, #00955e 60%, #00955e 100%);
+    background-image: linear-gradient(90deg, rgba(0, 0, 0, 0) 0%, rgba(255, 108, 63, 0.8) 25%, #a12880 60%, #a12880 100%);
 }
 
 .bg-theme-dark .roadmap-wrap-ovl-right:after {
@@ -13425,7 +13425,7 @@ hr+.nk-block {
 }
 
 .bg-theme-dark .roadmap-line {
-    background: #00955e;
+    background: #a12880;
 }
 
 .bg-theme-dark .roadmap-line:after,
@@ -13434,7 +13434,7 @@ hr+.nk-block {
 }
 
 .bg-theme .roadmap-line {
-    background: #00955e;
+    background: #a12880;
 }
 
 .bg-theme .roadmap-line:after,
@@ -13578,7 +13578,7 @@ hr+.nk-block {
 .bg-theme .roadmap-step,
 .bg-theme-dark .roadmap-step {
     background: #49191d;
-    border-color: #00955e;
+    border-color: #a12880;
 }
 
 .bg-theme .roadmap-step:before,
@@ -13589,8 +13589,8 @@ hr+.nk-block {
 
 .bg-theme .roadmap-step:after,
 .bg-theme-dark .roadmap-step:after {
-    background: #00955e;
-    border-color: #00955e;
+    background: #a12880;
+    border-color: #a12880;
 }
 
 .bg-theme-dark .roadmap-step:before {
@@ -13598,7 +13598,7 @@ hr+.nk-block {
 }
 
 .bg-theme-alt .roadmap-step:before {
-    border-color: #00955e;
+    border-color: #a12880;
 }
 
 .bg-light .roadmap-step:before {
@@ -13699,7 +13699,7 @@ hr+.nk-block {
     border-radius: 50%;
     text-align: center;
     color: #fff;
-    background: #00955e;
+    background: #a12880;
     font-family: "Font Awesome 5 Free";
     font-weight: 700;
     font-size: .88rem;
@@ -13899,11 +13899,11 @@ hr+.nk-block {
     font-size: 10px;
     text-align: center;
     line-height: 18px;
-    color: #00955e;
+    color: #a12880;
 }
 
 .tc-light .roadmap-finished .roadmap-time-s5:after {
-    color: #00955e;
+    color: #a12880;
     background: #a12880;
 }
 
@@ -13978,7 +13978,7 @@ hr+.nk-block {
 }
 
 .bg-theme-alt .roadmap-done .roadmap-title-s2:before {
-    background: #00955e;
+    background: #a12880;
 }
 
 .bg-theme-dark .roadmap-done .roadmap-title-s2:before {
@@ -14006,7 +14006,7 @@ hr+.nk-block {
 
 .tc-light .roadmap-carousel:after,
 .tc-light .roadmap-carousel:before {
-    background: #00955e;
+    background: #a12880;
 }
 
 .roadmap-carousel .owl-nav {
@@ -14067,7 +14067,7 @@ hr+.nk-block {
 }
 
 .bg-theme-alt .roadmap-carousel-s2:before {
-    background: linear-gradient(90deg, #00955e 0%, rgba(0, 0, 0, 0) 100%);
+    background: linear-gradient(90deg, #a12880 0%, rgba(0, 0, 0, 0) 100%);
 }
 
 .bg-theme-dark .roadmap-carousel-s2:before {
@@ -14087,7 +14087,7 @@ hr+.nk-block {
 }
 
 .bg-theme-alt .roadmap-carousel-s2:after {
-    background: linear-gradient(90deg, rgba(0, 0, 0, 0) 0%, #00955e 100%);
+    background: linear-gradient(90deg, rgba(0, 0, 0, 0) 0%, #a12880 100%);
 }
 
 .bg-theme-dark .roadmap-carousel-s2:after {
@@ -14121,7 +14121,7 @@ hr+.nk-block {
 }
 
 .tc-light .roadmap-carousel-container:before {
-    background: #00955e;
+    background: #a12880;
 }
 
 .roadmap-carousel-nav-s2 .owl-nav {
@@ -14163,7 +14163,7 @@ hr+.nk-block {
     width: 100vw;
     height: 1px;
     content: '';
-    background: #00955e;
+    background: #a12880;
 }
 
 .roadmap-innr {
@@ -14177,7 +14177,7 @@ hr+.nk-block {
     width: 1px;
     content: '';
     transform: translateX(-50%);
-    background-image: linear-gradient(to bottom, #a12880 0%, #00955e 100%);
+    background-image: linear-gradient(to bottom, #a12880 0%, #a12880 100%);
 }
 
 .roadmap-item {
@@ -14185,7 +14185,7 @@ hr+.nk-block {
 }
 
 .roadmap-item:nth-child(even) .roadmap-innr:before {
-    background-image: linear-gradient(to top, #a12880 0%, #00955e 100%);
+    background-image: linear-gradient(to top, #a12880 0%, #a12880 100%);
 }
 
 @media (min-width: 576px) {
@@ -15561,11 +15561,11 @@ hr+.nk-block {
 }
 
 .bg-theme .team-s5:before {
-    background: #00955e;
+    background: #a12880;
 }
 
 .has-bg-image .team-s5:before {
-    background: #00955e;
+    background: #a12880;
 }
 
 .tc-light .team-s5:before {
@@ -15644,7 +15644,7 @@ hr+.nk-block {
     content: '';
     height: 100%;
     width: 100%;
-    background: linear-gradient(to top left, #a12880 0%, #00955e 100%);
+    background: linear-gradient(to top left, #a12880 0%, #a12880 100%);
     border-radius: 6px;
     z-index: 1;
     opacity: .2;
@@ -15682,7 +15682,7 @@ hr+.nk-block {
     right: -33px;
     height: 3px;
     width: 65px;
-    background: linear-gradient(to top left, #a12880 0%, #00955e 100%);
+    background: linear-gradient(to top left, #a12880 0%, #a12880 100%);
     z-index: 1;
 }
 
@@ -15719,7 +15719,7 @@ hr+.nk-block {
     z-index: -1;
     opacity: 1;
     transition: all .5s ease;
-    background-image: linear-gradient(0deg, #00955e 0%, #a12880 100%);
+    background-image: linear-gradient(0deg, #a12880 0%, #a12880 100%);
 }
 
 .team-s3-alt .team-photo-bg:before {
@@ -15811,7 +15811,7 @@ hr+.nk-block {
     width: 34px;
     border-radius: 50%;
     color: #fff !important;
-    background: #00955e;
+    background: #a12880;
     box-shadow: 0px 2px 15px 0px rgba(255, 108, 63, 0.5);
 }
 
@@ -15967,7 +15967,7 @@ hr+.nk-block {
     left: 0;
     bottom: 0;
     content: '';
-    background: linear-gradient(to right, #a12880 0%, #00955e 100%);
+    background: linear-gradient(to right, #a12880 0%, #a12880 100%);
     z-index: 5;
 }
 
@@ -16289,7 +16289,7 @@ hr+.nk-block {
     line-height: 38px;
     text-align: center;
     color: #fff;
-    background: #00955e;
+    background: #a12880;
     box-shadow: 0px 2px 15px 0px rgba(255, 108, 63, 0.5);
     border-radius: 50%;
     margin-right: 15px;
@@ -16303,14 +16303,14 @@ hr+.nk-block {
 }
 
 .bg-secondary .contact-icon {
-    color: #00955e;
+    color: #a12880;
 }
 
 .contact-list-s1 .contact-icon {
     margin-right: 0;
     color: #fff;
     box-shadow: 0px 2px 15px 0px rgba(254, 67, 80, 0.5);
-    background: linear-gradient(-45deg, #a12880 0%, #00955e 100%);
+    background: linear-gradient(-45deg, #a12880 0%, #a12880 100%);
 }
 
 .tc-light .contact-list-s1 .contact-icon {
@@ -16319,9 +16319,9 @@ hr+.nk-block {
 }
 
 .contact-icon-s2 {
-    color: #00955e;
+    color: #a12880;
     background: transparent;
-    box-shadow: inset 0 0 0 2px #00955e;
+    box-shadow: inset 0 0 0 2px #a12880;
 }
 
 .tc-light .contact-icon-s2 {
@@ -16333,13 +16333,13 @@ hr+.nk-block {
 .contact-icon-s3 {
     position: relative;
     color: #a12880;
-    background: linear-gradient(to right, #a12880 0%, #00955e 100%);
+    background: linear-gradient(to right, #a12880 0%, #a12880 100%);
     box-shadow: none;
 }
 
 .tc-light .contact-icon-s3 {
     color: #fff;
-    background: linear-gradient(to right, #a12880 0%, #00955e 100%);
+    background: linear-gradient(to right, #a12880 0%, #a12880 100%);
 }
 
 .contact-icon-s3:after {
@@ -16367,7 +16367,7 @@ hr+.nk-block {
 }
 
 .bg-theme-alt .contact-icon-s3:after {
-    background: #00955e;
+    background: #a12880;
 }
 
 .bg-theme-dark .contact-icon-s3:after {
@@ -16383,7 +16383,7 @@ hr+.nk-block {
 }
 
 .bg-theme-accent-alt .contact-icon-s3:after {
-    background: #00955e;
+    background: #a12880;
 }
 
 .contact-icon-s3:before {
@@ -16505,7 +16505,7 @@ hr+.nk-block {
 }
 
 .bg-secondary .social-links li a:hover {
-    color: #00955e !important;
+    color: #a12880 !important;
 }
 
 .social-links-s2 li a {
@@ -16559,7 +16559,7 @@ hr+.nk-block {
 }
 
 .tc-light .wgs-title {
-    color: #00955e;
+    color: #a12880;
 }
 
 .wgs-logo {
@@ -16881,7 +16881,7 @@ hr+.nk-block {
 
 .rank-count {
     font-size: 1rem;
-    color: #00955e;
+    color: #a12880;
     font-weight: 700;
     padding-top: 4px;
     line-height: 1.3;
@@ -17010,7 +17010,7 @@ hr+.nk-block {
     font-weight: 500;
     padding: 0 8px;
     color: #fff;
-    background: #00955e;
+    background: #a12880;
 }
 
 @media (min-width: 420px) {
@@ -17177,7 +17177,7 @@ hr+.nk-block {
     margin-left: auto;
     font-size: 1.125rem;
     font-weight: 500;
-    color: #00955e;
+    color: #a12880;
 }
 
 .chart-c {
@@ -17395,7 +17395,7 @@ hr+.nk-block {
 }
 
 .bg-theme-alt>.sap-text span {
-    background: #00955e;
+    background: #a12880;
 }
 
 .blog {
@@ -17406,7 +17406,7 @@ hr+.nk-block {
 }
 
 .tc-light .blog {
-    background: #00955e;
+    background: #a12880;
 }
 
 .blog-photo {
@@ -17783,7 +17783,7 @@ hr+.nk-block {
 
 .doc-download:hover {
     color: #fff !important;
-    background: #00955e;
+    background: #a12880;
 }
 
 .doc-lang {
@@ -17855,7 +17855,7 @@ hr+.nk-block {
 }
 
 .tc-light .product-name {
-    color: #00955e;
+    color: #a12880;
 }
 
 .product-image {
@@ -17865,7 +17865,7 @@ hr+.nk-block {
 }
 
 .tc-light .product-image {
-    border-color: #00955e;
+    border-color: #a12880;
 }
 
 .qr-code {
@@ -19004,7 +19004,7 @@ hr+.nk-block {
     bottom: 0;
     width: 0;
     height: 3px;
-    background: #00955e;
+    background: #a12880;
     transform: translateX(-50%);
     transition: 0.3s;
     transform-origin: left;
@@ -19387,7 +19387,7 @@ hr+.nk-block {
     height: 80px;
     width: 2px;
     transform: translate(-50%, -50%);
-    background: linear-gradient(to bottom, #a12880 0%, #00955e 100%);
+    background: linear-gradient(to bottom, #a12880 0%, #a12880 100%);
     z-index: 2;
 }
 
