@@ -1,4 +1,5 @@
 <?php
-header("Location: ?from=mint");
-exit();
+ echo "<script language='javascript'>
+    window.location.href = '/';
+ </script>" 
 ?>

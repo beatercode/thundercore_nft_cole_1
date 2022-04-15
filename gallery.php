@@ -1,4 +1,5 @@
 <?php
-header("Location: ?from=gallery");
-exit();
+ echo "<script language='javascript'>
+    window.location.href = '/';
+ </script>" 
 ?>
