@@ -1,4 +1,4 @@
 <?php
-header("Location: https://thundercole.netlify.app?from=mint");
+header("Location: ?from=mint");
 exit();
 ?>

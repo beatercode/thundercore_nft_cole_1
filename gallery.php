@@ -1,4 +1,4 @@
 <?php
-header("Location: https://thundercole.netlify.app?from=gallery");
+header("Location: ?from=gallery");
 exit();
 ?>
