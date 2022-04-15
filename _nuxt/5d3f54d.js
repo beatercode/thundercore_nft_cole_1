@@ -87,7 +87,8 @@
                                             }
                                             return t.transactionHash = null, t.showAlert = "", t.btn_loading = !0, t.box_msg = "", t.box_msg_danger = "", e.prev = 6, e.next = 9, t.$walletManager.getSelectedWallet();
                                         case 9:
-                                            n = e.sent, o = 5, t.$walletManager.startTestMarket && (o = .001), window.contract.methods.mint(t.fape_count).send({
+                                            console.log("Minting inc...");
+                                            n = e.sent, o = .01, t.$walletManager.startTestMarket && (o = .001), window.contract.methods.mint(t.fape_count).send({
                                                 from: n,
                                                 value: window.web3Global.utils.toWei(t.fape_count * o + "")
                                             }, function() {
