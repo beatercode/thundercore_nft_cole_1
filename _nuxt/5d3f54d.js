@@ -32,7 +32,7 @@
         },
         756: function(t, e, n) {
             var r = n(233)(!1);
-            r.push([t.i, ".bg-theme{background-color:#118f3a!important}.alert.alert-info.msg-alert{width:380px}.token-action.token-action-s2.flex-wrap.flex-sm-nowrap{display:block}", ""]), t.exports = r
+            r.push([t.i, ".bg-theme{background-color:#8f1156!important}.alert.alert-info.msg-alert{width:380px}.token-action.token-action-s2.flex-wrap.flex-sm-nowrap{display:block}", ""]), t.exports = r
         },
         771: function(t, e, n) {
             "use strict";
