@@ -4705,7 +4705,7 @@
                                     }, {
                                         hid: "image",
                                         name: "image",
-                                        content: "http://127.0.0.1:5555/side_image.png"
+                                        content: "https://thundercole.netlify.app/side_image.png"
                                     }, {
                                         hid: "twitter_card",
                                         name: "twitter:card",
@@ -4721,7 +4721,7 @@
                                     }, {
                                         hid: "twitter_image_src",
                                         name: "twitter:image:src",
-                                        content: "http://127.0.0.1:5555/og_image.png"
+                                        content: "https://thundercole.netlify.app/og_image.png"
                                     }, {
                                         hid: "og_title",
                                         name: "og_title",
@@ -4733,11 +4733,11 @@
                                     }, {
                                         hid: "og_image",
                                         name: "og:image",
-                                        content: "http://127.0.0.1:5555/og_image.png"
+                                        content: "https://thundercole.netlify.app/og_image.png"
                                     }, {
                                         hid: "og_url",
                                         name: "og:url",
-                                        content: "http://127.0.0.1:5555"
+                                        content: "https://thundercole.netlify.app"
                                     }, {
                                         hid: "og_site_name",
                                         name: "og:site_name",
