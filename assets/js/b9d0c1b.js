@@ -361,7 +361,7 @@
                         }
                     }, [o("img", {
                         attrs: {
-                            src: "/assets/BaycImages/apes/7495.png",
+                            src: "https://polygonapes.com/assets/BaycImages/poly/7495.png",
                             alt: "gfx"
                         }
                     })])]), t._v(" "), o("div", {
@@ -678,7 +678,7 @@
                         staticClass: "team-photo"
                     }, [o("img", {
                         attrs: {
-                            src: "/assets/BaycImages/apes/446.png",
+                            src: "https://polygonapes.com/assets/BaycImages/poly/446.png",
                             alt: "team"
                         }
                     }), t._v(" "), o("ul", {
@@ -699,7 +699,7 @@
                         staticClass: "team-photo"
                     }, [o("img", {
                         attrs: {
-                            src: "/assets/BaycImages/apes/60.png",
+                            src: "https://polygonapes.com/assets/BaycImages/poly/60.png",
                             alt: "team"
                         }
                     }), t._v(" "), o("ul", {
@@ -720,7 +720,7 @@
                         staticClass: "team-photo"
                     }, [o("img", {
                         attrs: {
-                            src: "/assets/BaycImages/apes/7495.png",
+                            src: "https://polygonapes.com/assets/BaycImages/poly/7495.png",
                             alt: "team"
                         }
                     }), t._v(" "), o("ul", {
@@ -741,7 +741,7 @@
                         staticClass: "team-photo"
                     }, [o("img", {
                         attrs: {
-                            src: "/assets/BaycImages/apes/52.png",
+                            src: "https://polygonapes.com/assets/BaycImages/poly/52.png",
                             alt: "team"
                         }
                     }), t._v(" "), o("ul", {
@@ -957,7 +957,7 @@
                         staticClass: "team-photo"
                     }, [o("img", {
                         attrs: {
-                            src: "/assets/BaycImages/apes/7495.png",
+                            src: "https://polygonapes.com/assets/BaycImages/poly/7495.png",
                             alt: ""
                         }
                     })]), t._v(" "), o("h5", {
@@ -972,7 +972,7 @@
                         staticClass: "team-photo"
                     }, [o("img", {
                         attrs: {
-                            src: "/assets/BaycImages/apes/3953.png",
+                            src: "https://polygonapes.com/assets/BaycImages/poly/3953.png",
                             alt: ""
                         }
                     })]), t._v(" "), o("h5", {
@@ -987,7 +987,7 @@
                         staticClass: "team-photo"
                     }, [o("img", {
                         attrs: {
-                            src: "/assets/BaycImages/apes/9606.png",
+                            src: "https://polygonapes.com/assets/BaycImages/poly/9606.png",
                             alt: ""
                         }
                     })]), t._v(" "), o("h5", {
@@ -1002,7 +1002,7 @@
                         staticClass: "team-photo"
                     }, [o("img", {
                         attrs: {
-                            src: "/assets/BaycImages/apes/7616.png",
+                            src: "https://polygonapes.com/assets/BaycImages/poly/7616.png",
                             alt: ""
                         }
                     })]), t._v(" "), o("h5", {
@@ -1017,7 +1017,7 @@
                         staticClass: "team-photo"
                     }, [o("img", {
                         attrs: {
-                            src: "/assets/BaycImages/apes/4873.png",
+                            src: "https://polygonapes.com/assets/BaycImages/poly/4873.png",
                             alt: ""
                         }
                     })]), t._v(" "), o("h5", {
@@ -1032,7 +1032,7 @@
                         staticClass: "team-photo"
                     }, [o("img", {
                         attrs: {
-                            src: "/assets/BaycImages/apes/8811.png",
+                            src: "https://polygonapes.com/assets/BaycImages/poly/8811.png",
                             alt: ""
                         }
                     })]), t._v(" "), o("h5", {
@@ -1047,7 +1047,7 @@
                         staticClass: "team-photo"
                     }, [o("img", {
                         attrs: {
-                            src: "/assets/BaycImages/apes/8135.png",
+                            src: "https://polygonapes.com/assets/BaycImages/poly/8135.png",
                             alt: ""
                         }
                     })]), t._v(" "), o("h5", {
@@ -1062,7 +1062,7 @@
                         staticClass: "team-photo"
                     }, [o("img", {
                         attrs: {
-                            src: "/assets/BaycImages/apes/446.png",
+                            src: "https://polygonapes.com/assets/BaycImages/poly/446.png",
                             alt: ""
                         }
                     })]), t._v(" "), o("h5", {
@@ -1077,7 +1077,7 @@
                         staticClass: "team-photo"
                     }, [o("img", {
                         attrs: {
-                            src: "/assets/BaycImages/apes/2087.png",
+                            src: "https://polygonapes.com/assets/BaycImages/poly/2087.png",
                             alt: ""
                         }
                     })]), t._v(" "), o("h5", {
@@ -1092,7 +1092,7 @@
                         staticClass: "team-photo"
                     }, [o("img", {
                         attrs: {
-                            src: "/assets/BaycImages/apes/73.png",
+                            src: "https://polygonapes.com/assets/BaycImages/poly/73.png",
                             alt: ""
                         }
                     })]), t._v(" "), o("h5", {
