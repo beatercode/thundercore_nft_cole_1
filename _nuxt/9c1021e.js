@@ -196,7 +196,7 @@
                         }, [n("img", {
                             staticClass: "img-fluid",
                             attrs: {
-                                src: "/assets/BaycImages/apes/" + e.tokenId + ".png",
+                                src: "https://polygonapes.com/assets/BaycImages/poly/" + e.tokenId + ".png",
                                 alt: "Heco Ape #" + e.tokenId
                             }
                         }), t._v(" "), n("div", {
@@ -209,10 +209,14 @@
                             return n("label", {
                                 staticClass: "text-left p-2 m-2",
                                 staticStyle: {
-                                    display: "inline-block"
+                                    display: "block",
+                                    paddingBottom: "0px !important",
+                                    paddingTop: "0px !important",
+                                    marginBottom: "0px !important"
                                 }
-                            }, [n("h5", {
-                                staticClass: "text-primary"
+                            }, [n("span", {
+                                staticClass: "text-primary",
+                                staticStyle: { fontWeight: "700" }
                             }, [t._v(t._s(l))]), t._v(" "), n("span", {
                                 staticClass: "text-primary-alt"
                             }, [t._v(t._s(e))])])

@@ -1128,7 +1128,7 @@
                             staticClass: "team-photo team-photo-s3"
                         }, [r("img", {
                             attrs: {
-                                src: "/assets/BaycImages/apes/" + e.tokenId + ".png",
+                                src: "https://polygonapes.com/assets/BaycImages/poly/" + e.tokenId + ".png",
                                 alt: "Heco Ape #" + e.tokenId
                             }
                         })]), t._v(" "), r("h5", {

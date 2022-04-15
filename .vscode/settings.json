@@ -1,3 +1,4 @@
 {
-    "fiveServer.php.executable": "/opt/homebrew/bin/php"
+    "fiveServer.php.executable": "/opt/homebrew/bin/php",
+    "git.ignoreLimitWarning": true
 }

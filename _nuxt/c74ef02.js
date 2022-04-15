@@ -1295,7 +1295,7 @@
                     }), e._v(" "), r("img", {
                         staticClass: "img-detail rounded shadow-sm",
                         attrs: {
-                            src: "/assets/BaycImages/poly/" + this.$route.params.id + ".png",
+                            src: "https://polygonapes.com/assets/BaycImages/poly/" + this.$route.params.id + ".png",
                             alt: "Polygon Apes #" + this.$route.params.id
                         }
                     }), e._v(" "), r("div", {
@@ -1317,7 +1317,7 @@
                     }, [r("img", {
                         staticClass: "img-detail rounded shadow-sm",
                         attrs: {
-                            src: "/assets/BaycImages/poly/" + this.$route.params.id + ".png",
+                            src: "/assets/BaycImages/apes/" + this.$route.params.id + ".png",
                             alt: "Polygon Apes #" + this.$route.params.id
                         }
                     })])]), e._v(" "), r("div", {
