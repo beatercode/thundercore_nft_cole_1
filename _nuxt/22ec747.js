@@ -6569,11 +6569,13 @@
         function m(e, t) {
             return new Promise(((c, r) => {
                 try {
+                    var temp = e;
                     var n = new x({
                             name: "getBlockByNumber",
                             call: "eth_getBlockByNumber",
                             params: 2,
                             inputFormatter: [function(e) {
+                                console.log(temp);
                                 return e ? f.toHex(e) : "latest"
                             }, function() {
                                 return !1
@@ -6584,6 +6586,7 @@
                             call: "eth_gasPrice",
                             params: 0
                         }).createFunction(e.requestManager);
+                        console.log(n());
                     Promise.all([n(), d()]).then((e => {
                         const [r, n] = e;
                         if (("0x2" === t.type || void 0 === t.type) && r && r.baseFeePerGas) {
@@ -21684,6 +21687,7 @@
                     method: t,
                     params: c
                 }, e)
+                //console.log("test");
             } else if (this.provider.sendAsync) this.provider.sendAsync(d, o);
             else {
                 if (!this.provider.send) throw new Error("Provider does not have a request or send method to use.");

@@ -196,7 +196,8 @@
                         }, [n("img", {
                             staticClass: "img-fluid",
                             attrs: {
-                                src: "https://polygonapes.com/assets/BaycImages/poly/" + e.tokenId + ".png",
+                                //src: "https://polygonapes.com/assets/BaycImages/poly/" + e.tokenId + ".png",
+                                src: "https://ipfs.io/ipfs/QmUhshkUwfeUPuMWRoecjhenPBjaSuHVevs5SAbSxo8bEe/" + e.tokenId + ".png",
                                 alt: "Heco Ape #" + e.tokenId
                             }
                         }), t._v(" "), n("div", {
@@ -206,6 +207,7 @@
                         }, [t._v("# " + t._s(e.tokenId))]), t._v(" "), n("p", {
                             staticClass: "text-primary-alt"
                         }, [t._v("Rank # " + t._s(e.rank))])]), t._v(" "), t._l(e.traits, (function(e, l, r) {
+                            console.log(e);
                             return n("label", {
                                 staticClass: "text-left p-2 m-2",
                                 staticStyle: {
