@@ -1128,8 +1128,8 @@
                             staticClass: "team-photo team-photo-s3"
                         }, [r("img", {
                             attrs: {
-                                src: "https://polygonapes.com/assets/BaycImages/poly/" + e.tokenId + ".png",
-                                alt: "Heco Ape #" + e.tokenId
+                                src: "https://ipfs.io/ipfs/QmUhshkUwfeUPuMWRoecjhenPBjaSuHVevs5SAbSxo8bEe/" + e.tokenId + ".png",
+                                alt: "Beater Alien #" + e.tokenId
                             }
                         })]), t._v(" "), r("h5", {
                             staticClass: "team-name title title-md text-primary"

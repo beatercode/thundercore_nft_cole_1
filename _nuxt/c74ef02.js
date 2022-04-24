@@ -1274,7 +1274,7 @@
                         staticClass: "page-header-content text-white text-center pt-sm-5 pt-md-5 pt-lg-0"
                     }, [r("h1", {
                         staticClass: "text-white mb-0"
-                    }, [e._v("Polygon Apes #" + e._s(this.$route.params.id))])])])])])]), e._v(" "), r("section", {
+                    }, [e._v("Beater Alien #" + e._s(this.$route.params.id))])])])])])]), e._v(" "), r("section", {
                         staticClass: "project-details-section ptb-100",
                         attrs: {
                             id: "apeDetail"
@@ -1295,8 +1295,8 @@
                     }), e._v(" "), r("img", {
                         staticClass: "img-detail rounded shadow-sm",
                         attrs: {
-                            src: "https://polygonapes.com/assets/BaycImages/poly/" + this.$route.params.id + ".png",
-                            alt: "Polygon Apes #" + this.$route.params.id
+                            src: "https://ipfs.io/ipfs/QmUhshkUwfeUPuMWRoecjhenPBjaSuHVevs5SAbSxo8bEe/" + this.$route.params.id + ".png",
+                            alt: "Beater Alien #" + this.$route.params.id
                         }
                     }), e._v(" "), r("div", {
                         staticClass: "team-popup bg-theme-dark tc-light mfp-hide",
@@ -1317,8 +1317,8 @@
                     }, [r("img", {
                         staticClass: "img-detail rounded shadow-sm",
                         attrs: {
-                            src: "https://polygonapes.com/assets/BaycImages/poly/" + this.$route.params.id + ".png",
-                            alt: "Polygon Apes #" + this.$route.params.id
+                            src: "https://ipfs.io/ipfs/QmUhshkUwfeUPuMWRoecjhenPBjaSuHVevs5SAbSxo8bEe/" + this.$route.params.id + ".png",
+                            alt: "Beater Alien #" + this.$route.params.id
                         }
                     })])]), e._v(" "), r("div", {
                         staticClass: "col-md-6"
@@ -1326,7 +1326,7 @@
                         staticClass: "team-popup-info pl-md-3"
                     }, [r("h2", {
                         staticClass: "mb-0 mb-2"
-                    }, [e._v("Polygon Apes # " + e._s(this.$route.params.id))]), e._v(" "), r("h5", {
+                    }, [e._v("Beater Alien # " + e._s(this.$route.params.id))]), e._v(" "), r("h5", {
                         staticClass: "text-primary-alt"
                     }, [e._v("Rarity Rank # " + e._s(e.rank))]), e._v(" "), r("ul", {
                         staticClass: "team-social team-social-s2 mb-4"
@@ -1457,7 +1457,7 @@
                         staticClass: "d-block"
                     }, [r("h2", {
                         staticClass: "mb-0 text-white-50 mb-2 text-primary"
-                    }, [e._v("Polygon Apes # " + e._s(this.$route.params.id))]), e._v(" "), r("p", {
+                    }, [e._v("Beater Alien # " + e._s(this.$route.params.id))]), e._v(" "), r("p", {
                         staticClass: "text-primary-alt"
                     }, [e._v("Rarity Rank # " + e._s(e.rank))]), e._v(" "), "0x0000000000000000000000000000000000000000" != this.token_owner ? r("p", [e._v("Owned by : "), this.is_it_mine ? r("strong", {
                         staticClass: "text-success"
