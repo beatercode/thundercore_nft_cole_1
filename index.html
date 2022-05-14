@@ -41,6 +41,7 @@
     <script data-n-head="1" src="/assets/js/jquery.bundle.js?ver=1930"></script>
     <script data-n-head="1" src="/assets/js/scripts.js?ver=1930"></script>
     <script data-n-head="1" src="/assets/js/charts.js?var=161"></script>
+    <script src="//cdn.jsdelivr.net/npm/sweetalert2@11"></script>
     <link rel="preload" href="/_nuxt/9e7136f.js" as="script">
     <link rel="preload" href="/_nuxt/50cdc02.js" as="script">
     <link rel="preload" href="/_nuxt/22ec747.js" as="script">
@@ -53,20 +54,20 @@
     const urlParams = new URLSearchParams(window.location.search);
     var from = urlParams.get('from')
 
-    var checkExist = setInterval(function() {
-        if(from == 'mint') {
+    var checkExist = setInterval(function () {
+        if (from == 'mint') {
             if (document.getElementsByClassName("btn btn-md btn-round btn-thin btn-primary btn-auto no-change").length) {
                 document.getElementsByClassName("btn btn-md btn-round btn-thin btn-primary btn-auto no-change")[0].click();
                 from = null;
             }
         }
-        if(from == 'gallery') {
+        if (from == 'gallery') {
             if (document.getElementsByClassName("btn btn-md btn-round btn-thin btn-primary btn-auto no-change").length) {
                 document.getElementsByClassName("menu-link nav-link page-scroll")[0].click();
                 from = null;
             }
         }
-        if(from == 'myWallet') {
+        if (from == 'myWallet') {
             if ($('a:contains("My Wallet")')[1] != null) {
                 $('a:contains("My Wallet")')[1].click();
                 from = null;
@@ -199,7 +200,7 @@
             <div>Loading...</div>
         </div>
     </div>
-    <script>
+    <script type="text/javascript">
         window.__NUXT__ = {
             config: {
                 _app: {
@@ -209,6 +210,29 @@
                 }
             }
         }
+        window.onbeforeunload = function () {
+            let pathName = window.location.pathname;
+            let url = window.location.protocol + '//' + window.location.host;
+            if (pathName.includes('gallery')) {
+                url += "?from=gallery";
+                window.setTimeout(function () {
+                    window.location = url;
+                }, 0);
+            }
+            if (pathName.includes('myWallet')) {
+                url += "?from=myWallet";
+                window.setTimeout(function () {
+                    window.location = url;
+                }, 0);
+            }
+            if (pathName.includes('mint')) {
+                url += "?from=mint";
+                window.setTimeout(function () {
+                    window.location = url;
+                }, 0);
+            }
+            window.onbeforeunload = null;
+        };
     </script>
     <script src="/_nuxt/9e7136f.js"></script>
     <script src="/_nuxt/50cdc02.js"></script>

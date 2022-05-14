@@ -78,7 +78,7 @@
                                         case 16:
                                             return r = e.sent, e.next = 19, window.contractGlobal.methods.balanceOf(n).call();
                                         case 19:
-                                            for (t.balanceOf = e.sent, i = 0; i < r.length; i++) o = r[i], t.$apeList[o].rank = t.allRanks[t.$apeList[o].tokenId], t.allPunks.push(t.$apeList[o]);
+                                            for (t.balanceOf = e.sent, i = 0; i < r.length; i++) o = r[i] - 1, t.$apeList[o].rank = t.allRanks[t.$apeList[o].tokenId], t.allPunks.push(t.$apeList[o]);
                                             t.btn_loading = !1, e.next = 27;
                                             break;
                                         case 24:
@@ -96,6 +96,7 @@
                         },
                         filterAttr: function() {
                             this.punks = [];
+                            console.log(this.allPunks);
                             for (var i = 0; i < 500 && i < this.allPunks.length; i++) this.allPunks[i].rank = this.allRanks[this.allPunks[i].tokenId], this.punks.push(this.allPunks[i])
                         }
                     }
@@ -185,6 +186,8 @@
                     }, [t._v("Mint")]), t._v("\n                  Some Apes\n                ")], 1)]) : t._e(), t._v(" "), n("div", {
                         staticClass: "row"
                     }, t._l(t.punks, (function(e, l) {
+                        console.log("e");
+                        console.log(e);
                         return n("div", {
                             staticClass: "col-md-4 col-lg-4 pb-5"
                         }, [n("NuxtLink", {
@@ -207,7 +210,8 @@
                         }, [t._v("# " + t._s(e.tokenId))]), t._v(" "), n("p", {
                             staticClass: "text-primary-alt"
                         }, [t._v("Rank # " + t._s(e.rank))])]), t._v(" "), t._l(e.traits, (function(e, l, r) {
-                            console.log(e);
+                            //TODO//console.log("l: " + l + " | e: " + e);
+                            //console.log(e);
                             return n("label", {
                                 staticClass: "text-left p-2 m-2",
                                 staticStyle: {

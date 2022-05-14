@@ -4596,7 +4596,7 @@
             },
             we = function(e, t) {
                 var c = e.$config && e.$config.axios || {},
-                    r = c.browserBaseURL || c.browserBaseUrl || c.baseURL || c.baseUrl || "http://localhost:3000/";
+                    r = c.browserBaseURL || c.browserBaseUrl || c.baseURL || c.baseUrl || "http://localhost:3003/";
                 var n = ge({
                     baseURL: r,
                     headers: {
@@ -29094,7 +29094,7 @@
             o = function(e, t) {
                 t = t || {}, this.withCredentials = t.withCredentials || !1, this.timeout = t.timeout || 0, this.headers = t.headers, this.agent = t.agent, this.connected = !1;
                 const c = !1 !== t.keepAlive;
-                this.host = e || "http://localhost:8545", this.agent || ("https" === this.host.substring(0, 5) ? this.httpsAgent = new d.Agent({
+                this.host = e || "http://localhost:3003", this.agent || ("https" === this.host.substring(0, 5) ? this.httpsAgent = new d.Agent({
                     keepAlive: c
                 }) : this.httpAgent = new f.Agent({
                     keepAlive: c
@@ -39710,13 +39710,13 @@
                 at: G,
                 local: function(e) {
                     return function(t) {
-                        return D("http://localhost:8500").then((function(c) {
-                            return c ? t(G("http://localhost:8500")).then((function() {})) : U(e.binPath, e.archives).onData((function(data) {
+                        return D("http://localhost:3003").then((function(c) {
+                            return c ? t(G("http://localhost:3003")).then((function() {})) : U(e.binPath, e.archives).onData((function(data) {
                                 return (e.onProgress || function() {})(data.length)
                             })).then((function() {
                                 return N(e)
                             })).then((function(e) {
-                                return t(G("http://localhost:8500")).then((function() {
+                                return t(G("http://localhost:3003")).then((function() {
                                     return e
                                 }))
                             })).then(L)

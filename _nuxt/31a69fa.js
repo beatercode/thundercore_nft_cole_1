@@ -1129,7 +1129,7 @@
                         }, [r("img", {
                             attrs: {
                                 src: "https://ipfs.io/ipfs/QmUhshkUwfeUPuMWRoecjhenPBjaSuHVevs5SAbSxo8bEe/" + e.tokenId + ".png",
-                                alt: "Beater Alien #" + e.tokenId
+                                alt: "Thunder Zeta #" + e.tokenId
                             }
                         })]), t._v(" "), r("h5", {
                             staticClass: "team-name title title-md text-primary"

@@ -173,7 +173,7 @@
                             if (this.$route.params.id >= 0 && this.$route.params.id < 1e4) {
                                 this.rank = JSON.parse(JSON.stringify(this.$apeRanks))[0][this.$route.params.id];
                                 var t = JSON.parse(JSON.stringify(this.$apeList[this.$route.params.id]));
-                                this.ipfs = t.image, this.currentPunk = JSON.parse(JSON.stringify(this.$apeList[this.$route.params.id])), setTimeout((function() {
+                                this.ipfs = t.image, this.currentPunk = JSON.parse(JSON.stringify(this.$apeList[this.$route.params.id - 1])), setTimeout((function() {
                                     e.walletStatus = e.$walletManager.walletStatus, e.is_load_this_punk || (e.is_load_this_punk = !0, e.loadData())
                                 }), 100)
                             } else window.location.href = "/"
@@ -1274,7 +1274,7 @@
                         staticClass: "page-header-content text-white text-center pt-sm-5 pt-md-5 pt-lg-0"
                     }, [r("h1", {
                         staticClass: "text-white mb-0"
-                    }, [e._v("Beater Alien #" + e._s(this.$route.params.id))])])])])])]), e._v(" "), r("section", {
+                    }, [e._v("Thunder Zeta #" + e._s(this.$route.params.id))])])])])])]), e._v(" "), r("section", {
                         staticClass: "project-details-section ptb-100",
                         attrs: {
                             id: "apeDetail"
@@ -1296,7 +1296,7 @@
                         staticClass: "img-detail rounded shadow-sm",
                         attrs: {
                             src: "https://ipfs.io/ipfs/QmUhshkUwfeUPuMWRoecjhenPBjaSuHVevs5SAbSxo8bEe/" + this.$route.params.id + ".png",
-                            alt: "Beater Alien #" + this.$route.params.id
+                            alt: "Thunder Zeta #" + this.$route.params.id
                         }
                     }), e._v(" "), r("div", {
                         staticClass: "team-popup bg-theme-dark tc-light mfp-hide",
@@ -1318,7 +1318,7 @@
                         staticClass: "img-detail rounded shadow-sm",
                         attrs: {
                             src: "https://ipfs.io/ipfs/QmUhshkUwfeUPuMWRoecjhenPBjaSuHVevs5SAbSxo8bEe/" + this.$route.params.id + ".png",
-                            alt: "Beater Alien #" + this.$route.params.id
+                            alt: "Thunder Zeta #" + this.$route.params.id
                         }
                     })])]), e._v(" "), r("div", {
                         staticClass: "col-md-6"
@@ -1326,7 +1326,7 @@
                         staticClass: "team-popup-info pl-md-3"
                     }, [r("h2", {
                         staticClass: "mb-0 mb-2"
-                    }, [e._v("Beater Alien # " + e._s(this.$route.params.id))]), e._v(" "), r("h5", {
+                    }, [e._v("Thunder Zeta # " + e._s(this.$route.params.id))]), e._v(" "), r("h5", {
                         staticClass: "text-primary-alt"
                     }, [e._v("Rarity Rank # " + e._s(e.rank))]), e._v(" "), r("ul", {
                         staticClass: "team-social team-social-s2 mb-4"
@@ -1382,6 +1382,7 @@
                     }, [r("i", {
                         staticClass: "fab fa-whatsapp fa-2x"
                     })])], 1)])]), e._v(" "), e._l(e.currentPunk.traits, (function(t, n, o) {
+                        console.log("o: " + o + "|");
                         return r("div", {
                             staticClass: "p-2 m-2",
                             staticStyle: {
@@ -1457,7 +1458,7 @@
                         staticClass: "d-block"
                     }, [r("h2", {
                         staticClass: "mb-0 text-white-50 mb-2 text-primary"
-                    }, [e._v("Beater Alien # " + e._s(this.$route.params.id))]), e._v(" "), r("p", {
+                    }, [e._v("Thunder Zeta # " + e._s(this.$route.params.id))]), e._v(" "), r("p", {
                         staticClass: "text-primary-alt"
                     }, [e._v("Rarity Rank # " + e._s(e.rank))]), e._v(" "), "0x0000000000000000000000000000000000000000" != this.token_owner ? r("p", [e._v("Owned by : "), this.is_it_mine ? r("strong", {
                         staticClass: "text-success"
