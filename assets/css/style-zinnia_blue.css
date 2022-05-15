@@ -5864,6 +5864,7 @@ a .title {
     font-weight: 700;
     margin-bottom: 0;
     background: -webkit-linear-gradient(#fe1021, #ff450c);
+    background-clip: text;
     -webkit-background-clip: text;
     -webkit-text-fill-color: transparent;
     opacity: .4;
@@ -5871,6 +5872,7 @@ a .title {
 
 .title-ele-head {
     background: linear-gradient(180deg, #000000 0%, #fff 100%);
+    background-clip: text;
     -webkit-background-clip: text;
     -webkit-text-fill-color: transparent;
 }
@@ -11539,6 +11541,7 @@ hr+.nk-block {
 .section-head-s2 .title:before {
     font-size: 48px;
     background-image: linear-gradient(180deg, #000000 0%, #fff 100%);
+    background-clip: text;
     -webkit-background-clip: text;
     -webkit-text-fill-color: transparent;
 }
@@ -11812,6 +11815,7 @@ hr+.nk-block {
 
 .feature-icon .icon-grd {
     background-image: linear-gradient(-45deg, #a12880 0%, #a12880 80%, #a12880 100%);
+    background-clip: text;
     -webkit-background-clip: text;
     -webkit-text-fill-color: transparent;
 }
@@ -19227,21 +19231,21 @@ hr+.nk-block {
         transform: translateY(-50%) rotate(-90deg);
         right: 15px;
     }
-    >.has-sub.menu-item:last-child .menu-sub:not(.menu-mega) .menu-item>a {
+    .has-sub.menu-item:last-child .menu-sub:not(.menu-mega) .menu-item>a {
         padding-right: 20px !important;
         padding-left: 35px;
     }
-    >.has-sub.menu-item:last-child .menu-sub:not(.menu-mega) .menu-item>a:after {
+    .has-sub.menu-item:last-child .menu-sub:not(.menu-mega) .menu-item>a:after {
         transform: translateY(-50%) rotate(90deg);
         left: 15px;
         right: auto;
     }
-    >.has-sub.menu-item:last-child .menu-mega {
+    .has-sub.menu-item:last-child .menu-mega {
         left: auto;
         right: 0;
         transform: translateX(0) translateY(-8px);
     }
-    >.has-sub.menu-item:last-child:hover .menu-mega {
+    .has-sub.menu-item:last-child:hover .menu-mega {
         transform: translateX(0) translateY(0);
     }
     .is-transparent:not(.has-fixed):not(.is-light) .menu>.menu-item>a {
