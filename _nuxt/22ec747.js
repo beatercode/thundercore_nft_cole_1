@@ -6575,7 +6575,7 @@
                             call: "eth_getBlockByNumber",
                             params: 2,
                             inputFormatter: [function(e) {
-                                console.log(temp);
+                                //console.log(temp);
                                 return e ? f.toHex(e) : "latest"
                             }, function() {
                                 return !1
@@ -6586,7 +6586,7 @@
                             call: "eth_gasPrice",
                             params: 0
                         }).createFunction(e.requestManager);
-                        console.log(n());
+                        //console.log(n());
                     Promise.all([n(), d()]).then((e => {
                         const [r, n] = e;
                         if (("0x2" === t.type || void 0 === t.type) && r && r.baseFeePerGas) {
@@ -11658,7 +11658,7 @@
                 return Object.prototype.hasOwnProperty.call(e, t)
             }
             t.log = function() {
-                console.log("%s - %s", j(), t.format.apply(t, arguments))
+                //console.log("%s - %s", j(), t.format.apply(t, arguments))
             }, t.inherits = c(452), t._extend = function(e, t) {
                 if (!t || !E(t)) return e;
                 for (var c = Object.keys(t), i = c.length; i--;) e[c[i]] = t[c[i]];
@@ -18749,7 +18749,7 @@
                     case "":
                         break;
                     default:
-                        console.log("unknown modifier: " + e)
+                        //console.log("unknown modifier: " + e)
                 }
             }))
         }
@@ -39977,7 +39977,7 @@
                     recoveryParam: e.v
                 })
             } catch (e) {
-                console.log(e)
+                //console.log(e)
             }
         }
 
@@ -39999,7 +39999,7 @@
                 try {
                     c.v = n.a.from(t[6]).toNumber()
                 } catch (e) {
-                    return console.log(e), c
+                    return /*console.log(e),*/ c
                 }
                 if (c.r = Object(f.f)(t[7], 32), c.s = Object(f.f)(t[8], 32), n.a.from(c.r).isZero() && n.a.from(c.s).isZero()) c.chainId = c.v, c.v = 0;
                 else {
@@ -40015,7 +40015,7 @@
                             recoveryParam: r
                         })
                     } catch (e) {
-                        console.log(e)
+                        //console.log(e)
                     }
                     c.hash = Object(o.a)(e)
                 }

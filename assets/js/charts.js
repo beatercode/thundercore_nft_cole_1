@@ -251,7 +251,7 @@ NioApp = (function(NioApp, $, window) {
                         NioApp.Chart.ChartJs.Doughnut(_canvas, item_label, item_color, item_percent, _canvas_border);
                     }
                 } else {
-                    console.log('Unable to draw canvas: ' + _canvas);
+                    //console.log('Unable to draw canvas: ' + _canvas);
                 }
             });
         }
@@ -293,7 +293,7 @@ NioApp = (function(NioApp, $, window) {
                         NioApp.Chart.ChartJs.Doughnut(_canvas, item_label, item_title, item_color, item_percent, _canvas_border);
                     }
                 } else {
-                    console.log('Unable to draw canvas: ' + _canvas);
+                    //console.log('Unable to draw canvas: ' + _canvas);
                 }
             });
         }
@@ -334,7 +334,7 @@ NioApp = (function(NioApp, $, window) {
                         NioApp.Chart.ChartJs.Doughnut(_canvas, item_label, item_color, item_percent, _canvas_border);
                     }
                 } else {
-                    console.log('Unable to draw canvas: ' + _canvas);
+                    //console.log('Unable to draw canvas: ' + _canvas);
                 }
             });
         }

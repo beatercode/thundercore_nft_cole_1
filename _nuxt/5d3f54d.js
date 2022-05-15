@@ -44,7 +44,7 @@
                         title: "HecoApes | Mint"
                     },
                     data: function () {
-                        console.log("Loading");
+                        //console.log("Loading");
                         return {
                             walletStatus: !1,
                             apeLeft: 0,
@@ -95,8 +95,8 @@
                                                 var e = Object(r.a)(regeneratorRuntime.mark((function e(n, r) {
                                                     var o;
                                                     return regeneratorRuntime.wrap((function (e) {
-                                                        console.log("--- Arrived");
-                                                        console.log(e);
+                                                        //console.log("--- Arrived");
+                                                        //console.log(e);
                                                         for (; ;) switch (e.prev = e.next) {
                                                             case 0:
                                                                 if (n ? (t.showAlert = "error", t.alertMessage = "Error: please check your wallet") : (t.showAlert = "success", t.alertMessage = "Your transaction has been broadcast to network please wait...!"), !r) {
@@ -129,7 +129,7 @@
                                             }()), e.next = 22;
                                             break;
                                         case 15:
-                                            e.prev = 15, e.t0 = e.catch(6), t.walletStatus = t.$walletManager.walletStatus, t.showAlert = "error", t.alertMessage = "Error on minting", t.btn_loading = !1, console.log(e.t0.message);
+                                            e.prev = 15, e.t0 = e.catch(6), t.walletStatus = t.$walletManager.walletStatus, t.showAlert = "error", t.alertMessage = "Error on minting", t.btn_loading = !1 /*, console.log(e.t0.message) */;
                                         case 22:
                                         case "end":
                                             return e.stop()
@@ -182,7 +182,7 @@
                 l = o,
                 c = (n(753), n(755), n(40)),
                 component = Object(c.a)(l, (function () {
-                    console.log(this.walletStatus);
+                    //console.log(this.walletStatus);
                     var t = this,
                         e = t.$createElement,
                         n = t._self._c || e;

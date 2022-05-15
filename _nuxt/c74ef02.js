@@ -188,9 +188,9 @@
                                 return regeneratorRuntime.wrap((function(t) {
                                     for (;;) switch (t.prev = t.next) {
                                         case 0:
-                                            return t.next = 2, e.$axios.$get("https://polygonapes.com/backend/update/?token_id=" + e.$route.params.id);
+                                            return t.next = 2 /*, e.$axios.$get("https://polygonapes.com/backend/update/?token_id=" + e.$route.params.id) */;
                                         case 2:
-                                            r = t.sent, console.log("apes updated ... ", r);
+                                            r = t.sent/* console.log("apes updated ... ", r) */;
                                         case 4:
                                         case "end":
                                             return t.stop()
@@ -207,16 +207,16 @@
                                         case 0:
                                             return e.canShowOffer = !1, e.offer = {}, t.next = 4, e.$walletManager.getSelectedWallet();
                                         case 4:
-                                            return r = t.sent, console.log("-------selectedWallet--------", r), t.next = 8, window.contractGlobal.methods.ownerOf(e.$route.params.id).call();
+                                            return r = t.sent, /*console.log("-------selectedWallet--------", r),*/ t.next = 8, window.contractGlobal.methods.ownerOf(e.$route.params.id).call();
                                         case 8:
-                                            return e.token_owner = t.sent, console.log("-------token_owner--------", e.token_owner), e.is_it_mine = !1, r.toLowerCase() === e.token_owner.toLowerCase() && (e.is_it_mine = !0), t.prev = 12, t.next = 15, window.contractGlobal.methods.getMarketLotInfo(e.$route.params.id).call();
+                                            return e.token_owner = t.sent, /*console.log("-------token_owner--------", e.token_owner),*/ e.is_it_mine = !1, r != null && e.token_owner != null && r.toLowerCase() === e.token_owner.toLowerCase() && (e.is_it_mine = !0), t.prev = 12, t.next = 15, window.contractGlobal.methods.getMarketLotInfo(e.$route.params.id).call();
                                         case 15:
                                             n = t.sent, e.offer = n[0] ? n : null, e.offerPrice = window.web3.utils.fromWei(e.offer.price), t.next = 23;
                                             break;
                                         case 20:
-                                            t.prev = 20, t.t0 = t.catch(12), console.log(t.t0);
+                                            t.prev = 20, t.t0 = t.catch(12) /*, console.log(t.t0)*/;
                                         case 23:
-                                            console.log("------------------------", e.offer), e.offer.owner.toLowerCase() === e.token_owner.toLowerCase() && (e.canShowOffer = !0);
+                                            /*console.log("------------------------", e.offer),*/ e.offert != null && e.offer.owner != null && e.token_owner != null && e.offer.owner.toLowerCase() === e.token_owner.toLowerCase() && (e.canShowOffer = !0);
                                         case 25:
                                         case "end":
                                             return t.stop()
@@ -321,7 +321,7 @@
                                             r = t.sent, e.offer = r[0] ? r : null, t.next = 10;
                                             break;
                                         case 7:
-                                            t.prev = 7, t.t0 = t.catch(0), console.log(t.t0);
+                                            t.prev = 7, t.t0 = t.catch(0) /*, console.log(t.t0) */;
                                         case 10:
                                         case "end":
                                             return t.stop()
@@ -431,7 +431,7 @@
                                                                             ])
                                                                         }))), 500)
                                                                     } catch (t) {
-                                                                        console.log(t), e.isOffering = !1
+                                                                        /*console.log(t) ,*/ e.isOffering = !1
                                                                     }
                                                                 case 1:
                                                                 case "end":
@@ -1382,7 +1382,7 @@
                     }, [r("i", {
                         staticClass: "fab fa-whatsapp fa-2x"
                     })])], 1)])]), e._v(" "), e._l(e.currentPunk.traits, (function(t, n, o) {
-                        console.log("o: " + o + "|");
+                        //console.log("o: " + o + "|");
                         return r("div", {
                             staticClass: "p-2 m-2",
                             staticStyle: {

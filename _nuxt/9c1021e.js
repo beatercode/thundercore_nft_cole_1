@@ -74,7 +74,7 @@
                                         case 7:
                                             return n = e.sent, t.walletAddress = n, e.next = 11, web3.eth.getBalance(n);
                                         case 11:
-                                            return l = e.sent, t.balance = web3.utils.fromWei(l, "ether"), console.log("-----------------", t.balance), e.next = 16, window.contractGlobal.methods.getUserTokens(n).call();
+                                            return l = e.sent, t.balance = web3.utils.fromWei(l, "ether"), /* console.log("-----------------", t.balance), */ e.next = 16, window.contractGlobal.methods.getUserTokens(n).call();
                                         case 16:
                                             return r = e.sent, e.next = 19, window.contractGlobal.methods.balanceOf(n).call();
                                         case 19:
@@ -96,7 +96,7 @@
                         },
                         filterAttr: function() {
                             this.punks = [];
-                            console.log(this.allPunks);
+                            //console.log(this.allPunks);
                             for (var i = 0; i < 500 && i < this.allPunks.length; i++) this.allPunks[i].rank = this.allRanks[this.allPunks[i].tokenId], this.punks.push(this.allPunks[i])
                         }
                     }
@@ -186,8 +186,8 @@
                     }, [t._v("Mint")]), t._v("\n                  Some Apes\n                ")], 1)]) : t._e(), t._v(" "), n("div", {
                         staticClass: "row"
                     }, t._l(t.punks, (function(e, l) {
-                        console.log("e");
-                        console.log(e);
+                        //console.log("e");
+                        //console.log(e);
                         return n("div", {
                             staticClass: "col-md-4 col-lg-4 pb-5"
                         }, [n("NuxtLink", {
@@ -210,7 +210,7 @@
                         }, [t._v("# " + t._s(e.tokenId))]), t._v(" "), n("p", {
                             staticClass: "text-primary-alt"
                         }, [t._v("Rank # " + t._s(e.rank))])]), t._v(" "), t._l(e.traits, (function(e, l, r) {
-                            //TODO//console.log("l: " + l + " | e: " + e);
+                            //console.log("l: " + l + " | e: " + e);
                             //console.log(e);
                             return n("label", {
                                 staticClass: "text-left p-2 m-2",
