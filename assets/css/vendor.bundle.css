@@ -18992,7 +18992,7 @@ table.dataTable td {
 }
 
 .tc-salvia {
-    color: #8f1156 !important;
+    color: #08141C !important;
 }
 
 .tc-salvia-alt {
@@ -19192,7 +19192,7 @@ table.dataTable td {
 }
 
 .bg-salvia {
-    background-color: #8f1156 !important;
+    background-color: #08141C !important;
 }
 
 .bg-salvia-alt {
@@ -19208,11 +19208,11 @@ table.dataTable td {
 }
 
 .bg-salvia-grad {
-    background-image: linear-gradient(45deg, #8f1156 0%, #6e19c2 100%) !important;
+    background-image: linear-gradient(45deg, #08141C 0%, #E41F26 100%) !important;
 }
 
 .bg-salvia-grad-alt {
-    background-image: linear-gradient(45deg, #6e19c2 0%, #8f1156 100%) !important;
+    background-image: linear-gradient(45deg, #E41F26 0%, #08141C 100%) !important;
 }
 
 .bg-lungwort {

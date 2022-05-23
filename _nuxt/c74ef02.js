@@ -46,7 +46,7 @@
                     name: "detail",
                     head: function() {
                         return {
-                            title: "PolygonApes | #" + this.$route.params.id,
+                            title: "ThunderZetas | #" + this.$route.params.id,
                             meta: [{
                                 charset: "utf-8"
                             }, {
@@ -55,7 +55,7 @@
                             }, {
                                 hid: "description",
                                 name: "description",
-                                content: "Bored Ape Yacht Club comes to polygon. Check out my Bored Ape from #PolygonApes — Ape in with me and join the minting 🐒"
+                                content: "Thunder Zeta comes to thundercore. Check out my Thunder Zeta from #ThunderZetas— Zeta in with me and join the minting 🐒"
                             }, {
                                 hid: "image",
                                 name: "image",
@@ -67,11 +67,11 @@
                             }, {
                                 hid: "twitter_title",
                                 name: "twitter:title",
-                                content: "PolygonApes | #" + this.$route.params.id
+                                content: "ThunderZetas | #" + this.$route.params.id
                             }, {
                                 hid: "twitter_description",
                                 name: "twitter:description",
-                                content: "Bored Ape Yacht Club comes to polygon. Check out my Bored Ape from #PolygonApes — Ape in with me and join the minting 🐒 | Bored ape #" + this.$route.params.id
+                                content: "Thunder Zeta comes to thundercore. Check out my Thunder Zeta from #ThunderZetas— Zeta in with me and join the minting 🐒 | Thunder zeta #" + this.$route.params.id
                             }, {
                                 hid: "twitter_image_src",
                                 name: "twitter:image:src",
@@ -83,11 +83,11 @@
                             }, {
                                 hid: "og_title",
                                 name: "og_title",
-                                content: "PolygonApes | Bored Ape" + this.$route.params.id
+                                content: "ThunderZetas | Thunder Zeta" + this.$route.params.id
                             }, {
                                 hid: "og_description",
                                 name: "og:description",
-                                content: "Bored Ape Yacht Club comes to polygon. Check out my Bored Ape from #PolygonApes — Ape in with me and join the minting 🐒 | Bored ape #" + this.$route.params.id
+                                content: "Thunder Zeta comes to thundercore. Check out my Thunder Zeta from #ThunderZetas— Zeta in with me and join the minting 🐒 | Thunder zeta #" + this.$route.params.id
                             }, {
                                 hid: "og_image",
                                 name: "og:image",
@@ -95,7 +95,7 @@
                             }, {
                                 hid: "og_image",
                                 name: "og:image:alt",
-                                content: "Bored Ape" + this.$route.params.id
+                                content: "Thunder Zeta" + this.$route.params.id
                             }, {
                                 hid: "og_image_width",
                                 name: "og:image:width",
@@ -107,11 +107,11 @@
                             }, {
                                 hid: "og_url",
                                 name: "og:url",
-                                content: "https://polygonapes.com/detail/" + this.$route.params.id
+                                content: "https://thundercorezeta.com/detail/" + this.$route.params.id
                             }, {
                                 hid: "og_site_name",
                                 name: "og:site_name",
-                                content: "PolygonApes"
+                                content: "ThunderZeta"
                             }, {
                                 hid: "og_type",
                                 name: "og:type",
@@ -119,7 +119,7 @@
                             }, {
                                 hid: "author",
                                 name: "author",
-                                content: "Polygon Bayc"
+                                content: "ThunderZeta"
                             }]
                         }
                     },
@@ -190,7 +190,7 @@
                                         case 0:
                                             return t.next = 2 /*, e.$axios.$get("https://polygonapes.com/backend/update/?token_id=" + e.$route.params.id) */;
                                         case 2:
-                                            r = t.sent/* console.log("apes updated ... ", r) */;
+                                            r = t.sent/* console.log("zetas updated ... ", r) */;
                                         case 4:
                                         case "end":
                                             return t.stop()
@@ -638,7 +638,7 @@
                                                                                         from: r
                                                                                     }, (function(t, r) {
                                                                                         r ? c.a.fire({
-                                                                                            title: "Ape no longer for Sale",
+                                                                                            title: "Zeta no longer for Sale",
                                                                                             text: "Refresh page",
                                                                                             icon: "success",
                                                                                             confirmButtonText: "Cool"
@@ -713,8 +713,8 @@
                                                                     customClass: {
                                                                         container: "my-swal"
                                                                     },
-                                                                    title: "Ape Was Bought",
-                                                                    text: "Ape was bought for ".concat(window.web3.utils.fromWei(e.offer[3])),
+                                                                    title: "Zeta Was Bought",
+                                                                    text: "Zeta was bought for ".concat(window.web3.utils.fromWei(e.offer[3])),
                                                                     icon: "success",
                                                                     confirmButtonText: "Cool"
                                                                 }) : c.a.fire({
@@ -736,7 +736,7 @@
                                                                     container: "my-swal"
                                                                 },
                                                                 title: "Error!",
-                                                                text: "Ape has not any Offer",
+                                                                text: "Zeta has not any Offer",
                                                                 icon: "error",
                                                                 confirmButtonText: "Cool"
                                                             });
@@ -792,7 +792,7 @@
                                                                                     }, (function(t, r) {
                                                                                         r ? c.a.fire({
                                                                                             title: "Withdraw Bid Done",
-                                                                                            text: "Refresh page after 'Ape No Longer For Sale' Activity",
+                                                                                            text: "Refresh page after 'Zeta No Longer For Sale' Activity",
                                                                                             icon: "success",
                                                                                             confirmButtonText: "Cool"
                                                                                         }) : c.a.fire({
@@ -874,7 +874,7 @@
                                                                         from: r
                                                                     }, (function(t, r) {
                                                                         r ? (c.a.fire({
-                                                                            title: "Ape Was Sold!",
+                                                                            title: "Zeta Was Sold!",
                                                                             text: "Refresh page after 'Offer Punk For Sale' Activity",
                                                                             icon: "success",
                                                                             confirmButtonText: "Cool"
@@ -923,7 +923,7 @@
                                                     container: "my-swal"
                                                 },
                                                 input: "text",
-                                                title: "Transfer Your PolygonApes",
+                                                title: "Transfer Your ThunderZetas",
                                                 text: "Enter Wallet Address",
                                                 type: "warning",
                                                 showCancelButton: !0,
@@ -1196,8 +1196,8 @@
                                                                                                             customClass: {
                                                                                                                 container: "my-swal"
                                                                                                             },
-                                                                                                            title: "Ape Bought",
-                                                                                                            text: "Ape bought for ".concat(window.web3.utils.fromWei(e.offer[3])),
+                                                                                                            title: "Zeta Bought",
+                                                                                                            text: "Zeta bought for ".concat(window.web3.utils.fromWei(e.offer[3])),
                                                                                                             icon: "success",
                                                                                                             confirmButtonText: "Cool"
                                                                                                         })), o && !o.status && (e.showAlert = "error", e.alertMessage = "Error: please check transaction", e.transactionHash = o.transactionHash);
@@ -1295,7 +1295,7 @@
                     }), e._v(" "), r("img", {
                         staticClass: "img-detail rounded shadow-sm",
                         attrs: {
-                            src: "https://ipfs.io/ipfs/QmUhshkUwfeUPuMWRoecjhenPBjaSuHVevs5SAbSxo8bEe/" + this.$route.params.id + ".png",
+                            src: "https://ipfs.io/ipfs/QmahsdpaFiaE4Xy2zhkHpoYSjn3JELmc1z1KV8gVkBtbzH/" + this.$route.params.id + ".png",
                             alt: "Thunder Zeta #" + this.$route.params.id
                         }
                     }), e._v(" "), r("div", {
@@ -1317,7 +1317,7 @@
                     }, [r("img", {
                         staticClass: "img-detail rounded shadow-sm",
                         attrs: {
-                            src: "https://ipfs.io/ipfs/QmUhshkUwfeUPuMWRoecjhenPBjaSuHVevs5SAbSxo8bEe/" + this.$route.params.id + ".png",
+                            src: "https://ipfs.io/ipfs/QmahsdpaFiaE4Xy2zhkHpoYSjn3JELmc1z1KV8gVkBtbzH/" + this.$route.params.id + ".png",
                             alt: "Thunder Zeta #" + this.$route.params.id
                         }
                     })])]), e._v(" "), r("div", {
@@ -1341,10 +1341,10 @@
                         staticClass: "bring-to-front",
                         attrs: {
                             network: "telegram",
-                            url: "https://polygonapes.com" + this.$route.path,
-                            title: "PolygonApes #" + this.$route.params.id,
-                            description: "Bored Ape Yacht Club comes to polygon. Check out my Bored Ape from #PolygonApes — Ape in with me and join the minting 🐒 | Bored ape #" + this.$route.params.id,
-                            hashtags: "PolygonApes,Polygon,BAYC,APES,PolygonApes" + this.$route.params.id
+                            url: "https://thunderzeta.com" + this.$route.path,
+                            title: "ThunderZetas #" + this.$route.params.id,
+                            description: "Check out my Thunder Zeta from #ThunderZetas— Zeta in with me and join the minting 🐒 | Thunder zeta #" + this.$route.params.id,
+                            hashtags: "ThunderZeta,Thundercore,TTZETAS,ZETAS,ThunderZetas" + this.$route.params.id
                         }
                     }, [r("i", {
                         staticClass: "fab fa-telegram fa-2x"
@@ -1352,10 +1352,10 @@
                         staticClass: "bring-to-front",
                         attrs: {
                             network: "twitter",
-                            url: "https://polygonapes.com" + this.$route.path,
-                            title: "PolygonApes #" + this.$route.params.id,
-                            description: "Bored Ape Yacht Club comes to polygon. Check out my Bored Ape from #PolygonApes — Ape in with me and join the minting 🐒 | Bored ape #" + this.$route.params.id,
-                            hashtags: "PolygonApes,Polygon,BAYC,APES,PolygonApes" + this.$route.params.id
+                            url: "https://thunderzeta.com" + this.$route.path,
+                            title: "ThunderZetas #" + this.$route.params.id,
+                            description: "Check out my Thunder Zeta from #ThunderZetas— Zeta in with me and join the minting 🐒 | Thunder zeta #" + this.$route.params.id,
+                            hashtags: "ThunderZeta,Thundercore,TTZETAS,ZETAS,ThunderZetas" + this.$route.params.id
                         }
                     }, [r("i", {
                         staticClass: "fab fa-twitter fa-2x"
@@ -1363,10 +1363,10 @@
                         staticClass: "bring-to-front",
                         attrs: {
                             network: "facebook",
-                            url: "https://polygonapes.com" + this.$route.path,
-                            title: "PolygonApes #" + this.$route.params.id,
-                            description: "Bored Ape Yacht Club comes to polygon. Check out my Bored Ape from #PolygonApes — Ape in with me and join the minting 🐒 | Bored ape #" + this.$route.params.id,
-                            hashtags: "PolygonApes,Polygon,BAYC,APES,PolygonApes" + this.$route.params.id
+                            url: "https://thunderzeta.com" + this.$route.path,
+                            title: "ThunderZetas #" + this.$route.params.id,
+                            description: "Check out my Thunder Zeta from #ThunderZetas— Zeta in with me and join the minting 🐒 | Thunder zeta #" + this.$route.params.id,
+                            hashtags: "ThunderZeta,Thundercore,TTZETAS,ZETAS,ThunderZetas" + this.$route.params.id
                         }
                     }, [r("i", {
                         staticClass: "fab fa-facebook fa-2x"
@@ -1374,10 +1374,10 @@
                         staticClass: "bring-to-front",
                         attrs: {
                             network: "whatsapp",
-                            url: "https://polygonapes.com" + this.$route.path,
-                            title: "PolygonApes #" + this.$route.params.id,
-                            description: "Bored Ape Yacht Club comes to polygon. Check out my Bored Ape from #PolygonApes — Ape in with me and join the minting 🐒 | Bored ape #" + this.$route.params.id,
-                            hashtags: "PolygonApes,Polygon,BAYC,APES,PolygonApes" + this.$route.params.id
+                            url: "https://thunderzeta.com" + this.$route.path,
+                            title: "ThunderZetas #" + this.$route.params.id,
+                            description: "Check out my Thunder Zeta from #ThunderZetas— Zeta in with me and join the minting 🐒 | Thunder zeta #" + this.$route.params.id,
+                            hashtags: "ThunderZeta,Thundercore,TTZETAS,ZETAS,ThunderZetas" + this.$route.params.id
                         }
                     }, [r("i", {
                         staticClass: "fab fa-whatsapp fa-2x"
@@ -1406,10 +1406,10 @@
                         staticClass: "bring-to-front",
                         attrs: {
                             network: "telegram",
-                            url: "https://polygonapes.com" + this.$route.path,
-                            title: "PolygonApes #" + this.$route.params.id,
-                            description: "Bored Ape Yacht Club comes to polygon. Check out my Bored Ape from #PolygonApes — Ape in with me and join the minting 🐒 | Bored ape #" + this.$route.params.id,
-                            hashtags: "PolygonApes,Polygon,BAYC,APES,PolygonApes" + this.$route.params.id
+                            url: "https://thunderzeta.com" + this.$route.path,
+                            title: "ThunderZetas #" + this.$route.params.id,
+                            description: "Check out my Thunder Zeta from #ThunderZetas— Zeta in with me and join the minting 🐒 | Thunder zeta #" + this.$route.params.id,
+                            hashtags: "ThunderZeta,Thundercore,TTZETAS,ZETAS,ThunderZetas" + this.$route.params.id
                         }
                     }, [r("i", {
                         staticClass: "fab fa-telegram fa-2x"
@@ -1417,10 +1417,10 @@
                         staticClass: "bring-to-front",
                         attrs: {
                             network: "twitter",
-                            url: "https://polygonapes.com" + this.$route.path,
-                            title: "PolygonApes #" + this.$route.params.id,
-                            description: "Bored Ape Yacht Club comes to polygon. Check out my Bored Ape from #PolygonApes — Ape in with me and join the minting 🐒 | Bored ape #" + this.$route.params.id,
-                            hashtags: "PolygonApes,Polygon,BAYC,APES,PolygonApes" + this.$route.params.id
+                            url: "https://thunderzeta.com" + this.$route.path,
+                            title: "ThunderZetas #" + this.$route.params.id,
+                            description: "Check out my Thunder Zeta from #ThunderZetas— Zeta in with me and join the minting 🐒 | Thunder zeta #" + this.$route.params.id,
+                            hashtags: "ThunderZeta,Thundercore,TTZETAS,ZETAS,ThunderZetas" + this.$route.params.id
                         }
                     }, [r("i", {
                         staticClass: "fab fa-twitter fa-2x"
@@ -1428,10 +1428,10 @@
                         staticClass: "bring-to-front",
                         attrs: {
                             network: "facebook",
-                            url: "https://polygonapes.com" + this.$route.path,
-                            title: "PolygonApes #" + this.$route.params.id,
-                            description: "Bored Ape Yacht Club comes to polygon. Check out my Bored Ape from #PolygonApes — Ape in with me and join the minting 🐒 | Bored ape #" + this.$route.params.id,
-                            hashtags: "PolygonApes,Polygon,BAYC,APES,PolygonApes" + this.$route.params.id
+                            url: "https://thunderzeta.com" + this.$route.path,
+                            title: "ThunderZetas #" + this.$route.params.id,
+                            description: "Check out my Thunder Zeta from #ThunderZetas— Zeta in with me and join the minting 🐒 | Thunder zeta #" + this.$route.params.id,
+                            hashtags: "ThunderZeta,Thundercore,TTZETAS,ZETAS,ThunderZetas" + this.$route.params.id
                         }
                     }, [r("i", {
                         staticClass: "fab fa-facebook fa-2x"
@@ -1439,10 +1439,10 @@
                         staticClass: "bring-to-front",
                         attrs: {
                             network: "whatsapp",
-                            url: "https://polygonapes.com" + this.$route.path,
-                            title: "PolygonApes #" + this.$route.params.id,
-                            description: "Bored Ape Yacht Club comes to polygon. Check out my Bored Ape from #PolygonApes — Ape in with me and join the minting 🐒 | Bored ape #" + this.$route.params.id,
-                            hashtags: "PolygonApes,Polygon,BAYC,APES,PolygonApes" + this.$route.params.id
+                            url: "https://thunderzeta.com" + this.$route.path,
+                            title: "ThunderZetas #" + this.$route.params.id,
+                            description: "Check out my Thunder Zeta from #ThunderZetas— Zeta in with me and join the minting 🐒 | Thunder zeta #" + this.$route.params.id,
+                            hashtags: "ThunderZeta,Thundercore,TTZETAS,ZETAS,ThunderZetas" + this.$route.params.id
                         }
                     }, [r("i", {
                         staticClass: "fab fa-whatsapp fa-2x"
@@ -1466,7 +1466,7 @@
                         staticClass: "bring-to-front",
                         attrs: {
                             target: "_blank",
-                            href: "https://polygonscan.com/address/" + this.token_owner
+                            href: "https://scan.thundercore.com/address/" + this.token_owner
                         }
                     }, [e._v("\n                          " + e._s(this.token_owner.substr(0, 5)) + "\n                          ...\n                          " + e._s(this.token_owner.substr(this.token_owner.length - 4, this.token_owner.length - 1)) + "\n                        ")])]) : r("p", {}, [r("strong", {
                         staticClass: "text-black"
@@ -1586,7 +1586,7 @@
                         staticClass: "bring-to-front",
                         attrs: {
                             target: "_blank",
-                            href: "https://polygonscan.com/tx/" + e.transactionHash
+                            href: "https://scan.thundercore.com/transactions/" + e.transactionHash
                         }
                     }, [e._v("\n                  " + e._s(this.transactionHash.substr(0, 5)) + "\n                  ...\n                  " + e._s(this.transactionHash.substr(this.transactionHash.length - 4, this.transactionHash.length - 1)) + "\n                ")]), e._v(" "), r("br"), e._v(" "), r("NuxtLink", {
                         staticClass: "mr-5 bring-to-front text-dark",
@@ -1602,7 +1602,7 @@
                         staticClass: "bring-to-front",
                         attrs: {
                             target: "_blank",
-                            href: "https://polygonscan.com/tx/" + e.transactionHash
+                            href: "https://scan.thundercore.com/transactions/" + e.transactionHash
                         }
                     }, [e._v("\n                    " + e._s(this.transactionHash.substr(0, 5)) + "\n                    ...\n                    " + e._s(this.transactionHash.substr(this.transactionHash.length - 4, this.transactionHash.length - 1)) + "\n                  ")])]) : e._e()]) : e._e()])]) : e._e()])])])])
                 }), [function() {

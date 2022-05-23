@@ -1,6 +1,6 @@
 (window.webpackJsonp = window.webpackJsonp || []).push([
     [6], {
-        745: function(t, e, o) {
+        745: function (t, e, o) {
             var content = o(765);
             content.__esModule && (content = content.default), "string" == typeof content && (content = [
                 [t.i, content, ""]
@@ -9,15 +9,15 @@
                 sourceMap: !1
             })
         },
-        764: function(t, e, o) {
+        764: function (t, e, o) {
             "use strict";
             o(745)
         },
-        765: function(t, e, o) {
+        765: function (t, e, o) {
             var n = o(233)(!1);
             n.push([t.i, "a.btn.btn-primary.btn-round{left:40px}#mintTime{margin-bottom:35px}", ""]), t.exports = n
         },
-        775: function(t, e, o) {
+        775: function (t, e, o) {
             "use strict";
             o.r(e);
             var n = o(14),
@@ -28,20 +28,20 @@
                         VueCompareImage: o.n(l).a
                     },
                     head: {
-                        title: "HecoApes | Bored Ape Yacht Club Now On Heco"
+                        title: "ThunderZeta | Thunder Zeta Now On Thundercore"
                     },
-                    data: function() {
+                    data: function () {
                         return {
                             apeLeft: 1e4,
                             apePercent: 0,
                             apePercentString: 0
                         }
                     },
-                    created: function() {
+                    created: function () {
                         var t = this;
-                        this.$walletManager.mintStart && setInterval((function() {
+                        this.$walletManager.mintStart && setInterval((function () {
                             t.loadApeLeft()
-                        }), 1e4), setTimeout((function() {
+                        }), 1e4), setTimeout((function () {
                             $(".clients-carousel").owlCarousel({
                                 autoplay: !0,
                                 loop: !0,
@@ -95,11 +95,11 @@
                             })
                         }), 100)
                     },
-                    mounted: function() {
+                    mounted: function () {
                         this.$walletManager.mintStart && this.loadApeLeft(), NioApp.components.docReady[3](jQuery), NioApp.components.docReady[14](jQuery), NioApp.components.docReady[21](jQuery), NioApp.components.winLoad[0](jQuery), NioApp.components.docReady[13](jQuery), NioApp.winLoad()
                     },
                     methods: {
-                        copyContract: function() {
+                        copyContract: function () {
                             navigator.clipboard.writeText(this.$walletManager.myAddress), toastr.clear(), toastr.options = {
                                 closeButton: !0,
                                 newestOnTop: !1,
@@ -111,16 +111,16 @@
                                 extendedTimeOut: "1000"
                             }, toastr.success("Contract Copied")
                         },
-                        loadApeLeft: function() {
+                        loadApeLeft: function () {
                             var t = this;
                             return Object(n.a)(regeneratorRuntime.mark((function e() {
-                                return regeneratorRuntime.wrap((function(e) {
-                                    for (;;) switch (e.prev = e.next) {
+                                return regeneratorRuntime.wrap((function (e) {
+                                    for (; ;) switch (e.prev = e.next) {
                                         case 0:
                                             setTimeout(Object(n.a)(regeneratorRuntime.mark((function e() {
                                                 var o;
-                                                return regeneratorRuntime.wrap((function(e) {
-                                                    for (;;) switch (e.prev = e.next) {
+                                                return regeneratorRuntime.wrap((function (e) {
+                                                    for (; ;) switch (e.prev = e.next) {
                                                         case 0:
                                                             return e.next = 2, window.contractGlobal.methods.getNotMintedAmount().call();
                                                         case 2:
@@ -141,7 +141,7 @@
                     }
                 },
                 r = (o(764), o(40)),
-                component = Object(r.a)(c, (function() {
+                component = Object(r.a)(c, (function () {
                     var t = this,
                         e = t.$createElement,
                         o = t._self._c || e;
@@ -175,7 +175,7 @@
                         attrs: {
                             to: "/mint"
                         }
-                    }, [o("span", [t._v("Mint Some Apes")]), t._v(" "), o("em", {
+                    }, [o("span", [t._v("Mint Some Zetas")]), t._v(" "), o("em", {
                         staticClass: "icon fas fa-angle-double-right"
                     })]) : o("a", {
                         staticClass: "btn btn-md btn-round btn-with-icon btn-light",
@@ -186,10 +186,10 @@
                     }, [t._m(2)])], 1), t._v(" "), o("li", [o("a", {
                         staticClass: "btn btn-md btn-round btn-with-icon btn-light",
                         attrs: {
-                            href: "https://hecoinfo.com/address/" + this.$walletManager.myAddress + "/contracts",
+                            href: "https://scan.thundercore.com/address/" + this.$walletManager.myAddress + "/contracts",
                             target: "_blank"
                         }
-                    }, [o("span", [t._v("Heco Apes Contract")]), t._v(" "), o("em", {
+                    }, [o("span", [t._v("Thundercore Zetas Contract")]), t._v(" "), o("em", {
                         staticClass: "icon fas fa-paperclip"
                     })])])])])])])])]), t._v(" "), t._m(3)])]), t._v(" "), o("div", {
                         staticClass: "nk-ovm mask-b mask-contain-bottom"
@@ -234,7 +234,7 @@
                         }
                     })]), t._v(" "), o("div", {
                         staticClass: "progress-points"
-                    }, [o("span", [t._v("Remaining " + t._s(t.apeLeft))]), t._v(" "), o("span", [t._v("10,000 Apes Total")])])])])])])]), t._v(" "), o("div", {
+                    }, [o("span", [t._v("Remaining " + t._s(t.apeLeft))]), t._v(" "), o("span", [t._v("10,000 Zetas Total")])])])])])])]), t._v(" "), o("div", {
                         staticClass: "particles-container particles-bg",
                         attrs: {
                             id: "particles-bg"
@@ -255,7 +255,7 @@
                         staticClass: "nk-block-text"
                     }, [o("h3", {
                         staticClass: "fw-3 pb-2"
-                    }, [t._v("\n                    Contract Address On Heco\n                  ")]), t._v(" "), o("p", {
+                    }, [t._v("\n                    Contract Address On Thundercore\n                  ")]), t._v(" "), o("p", {
                         staticClass: "lead-s2 animated",
                         attrs: {
                             "data-animate": "fadeInUp",
@@ -263,11 +263,11 @@
                         }
                     }, [o("a", {
                         attrs: {
-                            href: "https://hecoinfo.com/address/" + this.$walletManager.myAddress + "/contracts",
+                            href: "https://scan.thundercore.com/address/" + this.$walletManager.myAddress + "/contracts",
                             target: "_blank"
                         }
                     }, [t._v("\n\n                      " + t._s(this.$walletManager.myAddress) + "\n                    ")])])])])])])])]), t._v(" "), t._m(7), t._v(" "), t._m(8), t._v(" "), t._m(9)])])
-                }), [function() {
+                }), [function () {
                     var t = this,
                         e = t.$createElement,
                         o = t._self._c || e;
@@ -275,8 +275,8 @@
                         staticClass: "cpn-title"
                     }, [o("h1", {
                         staticClass: "title title-xl-s2 title-semibold pt-5 mt-5 "
-                    }, [t._v("BORED APE YACHT CLUB ON Heco")])])
-                }, function() {
+                    }, [t._v("THUNDER ZETA ON Thundercore")])])
+                }, function () {
                     var t = this,
                         e = t.$createElement,
                         o = t._self._c || e;
@@ -284,22 +284,17 @@
                         staticClass: "cpn-text cpn-text-center"
                     }, [o("p", {
                         staticClass: "lead  "
-                    }, [t._v("After the success of "), o("a", {
-                        attrs: {
-                            target: "_blank",
-                            href: "https://boredapeyachtclub.com/#/"
-                        }
-                    }, [t._v("Original\n                        Bayc Ethereum")]), t._v(",\n                        HecoApes are now on Heco! Don't miss the chance to own them\n                      ")]), t._v(" "), o("p", {
+                    }, [t._v("ThunderZeta are now on Thundercore! Don't miss the chance to own them")]), t._v(" "), o("p", {
                         staticClass: "lead"
-                    }, [t._v("\n                        HecoApes is among the first high-quality art projects on Heco\n                      ")])])
-                }, function() {
+                    }, [t._v("ThunderZeta is among the first high-quality art projects on Thundercore\n                      ")])])
+                }, function () {
                     var t = this,
                         e = t.$createElement,
                         o = t._self._c || e;
                     return o("span", [t._v(" Mint will be started at  "), o("br"), t._v(" "), o("h4", {
                         staticClass: "text-primary-alt"
-                    }, [t._v("Thursday,January 6,2022, 10AM GMT")])])
-                }, function() {
+                    }, [t._v("May 27, 2022, 12:00 GMT")])])
+                }, function () {
                     var t = this,
                         e = t.$createElement,
                         o = t._self._c || e;
@@ -310,13 +305,13 @@
                     }, [o("li", [o("a", {
                         attrs: {
                             target: "_blank",
-                            href: "https://t.me/hecoapes"
+                            href: "https://t.me/thundercorezetas"
                         }
                     }, [o("em", {
                         staticClass: "fab fa-telegram"
                     })])]), t._v(" "), o("li", [o("a", {
                         attrs: {
-                            href: "https://twitter.com/hecoapes",
+                            href: "https://twitter.com/thundercorezetas",
                             target: "_blank"
                         }
                     }, [o("em", {
@@ -330,18 +325,18 @@
                         staticClass: "fab fa-discord"
                     })])]), t._v(" "), o("li", [o("a", {
                         attrs: {
-                            href: "https://hecoapes.medium.com/",
+                            href: "https://thundercorezetas.medium.com/",
                             target: "_blank"
                         }
                     }, [o("em", {
                         staticClass: "fab fa-medium-m"
                     })])])])])
-                }, function() {
+                }, function () {
                     var t = this,
                         e = t.$createElement,
                         o = t._self._c || e;
                     return o("section", {
-                        staticClass: "section bg-light",
+                        staticClass: "section bg-light-grad",
                         attrs: {
                             id: "about"
                         }
@@ -353,18 +348,22 @@
                         staticClass: "row align-items-center flex-row-reverse gutter-vr-30px"
                     }, [o("div", {
                         staticClass: "col-lg-5"
-                    }, [o("div", {
-                        staticClass: "gfx py-4 mx-auto mx-lg-0 animated",
-                        attrs: {
-                            "data-animate": "fadeInUp",
-                            "data-delay": ".1"
-                        }
-                    }, [o("img", {
-                        attrs: {
-                            src: "https://polygonapes.com/assets/BaycImages/poly/7495.png",
-                            alt: "gfx"
-                        }
-                    })])]), t._v(" "), o("div", {
+                    }, [
+                        o("div", {
+                            staticClass: "gfx py-4 mx-auto mx-lg-0 animated",
+                            attrs: {
+                                "data-animate": "fadeInUp",
+                                "data-delay": ".1",
+                            }
+                        }, [o("img", {
+                            staticClass: "tiltImage",
+                            attrs: {
+                                src: "/assets/zetas/1.png",
+                                alt: "gfx",
+                                "data-tilt": ""
+                            }
+                        })])
+                    ]), t._v(" "), o("div", {
                         staticClass: "col-lg-7"
                     }, [o("div", {
                         staticClass: "nk-block-text pdb-r"
@@ -374,31 +373,31 @@
                             "data-animate": "fadeInUp",
                             "data-delay": ".1"
                         }
-                    }, [t._v("About Heco Ape")]), t._v(" "), o("h2", {
+                    }, [t._v("About Thundercore Zeta")]), t._v(" "), o("h2", {
                         staticClass: "animated",
                         attrs: {
                             "data-animate": "fadeInUp",
                             "data-delay": ".2"
                         }
-                    }, [t._v("The HecoApes is a homage to Bored Ape\n                    Yacht Club and not affiliated with Yuga Labs LLC. ")]), t._v(" "), o("p", {
+                    }, [t._v("The ThunderZeta is a brand new\n                   collection. ")]), t._v(" "), o("p", {
                         staticClass: "animated",
                         attrs: {
                             "data-animate": "fadeInUp",
                             "data-delay": ".3"
                         }
-                    }, [t._v("\n                    HecoApes, is an exclusive 10,000 only mint-able premium NFT. No two pieces of these 10,000\n                    digital\n                    beauties are alike. Each being unique and pristine, there is an order of rarity that makes certain\n                    ones more valuable than the others. each Bored Ape is inspired by its Ethereum counterpart.\n                  ")]), t._v(" "), o("p", {
+                    }, [t._v("\n                    ThunderZeta, is an exclusive 10,000 only mint-able premium NFT. No two pieces of these 10,000\n                    digital\n                    beauties are alike. Each being unique and pristine, there is an order of rarity that makes certain\n                    ones more valuable than the others. each Thunder Zeta is inspired by its Ethereum counterpart.\n                  ")]), t._v(" "), o("p", {
                         staticClass: "animated",
                         attrs: {
                             "data-animate": "fadeInUp",
                             "data-delay": ".5"
                         }
-                    }, [t._v("\n                    HecoApes is the first ape on Heco blockchain, everyone can get an Ape. Well, as long as you\n                    are within\n                    the first 10,000. All Apes will cost the same amount.\n                  ")]), t._v(" "), o("p", {
+                    }, [t._v("\n                    ThunderZeta is the first zeta on Thundercore blockchain, everyone can get an Ape. Well, as long as you\n                    are within\n                    the first 10,000. All Zetas will cost the same amount.\n                  ")]), t._v(" "), o("p", {
                         staticClass: "animated",
                         attrs: {
                             "data-animate": "fadeInUp",
                             "data-delay": ".7"
                         }
-                    }, [t._v("\n                    HecoApes is among the first high-quality art projects on Heco still nascent NFT landscape.\n                    With their\n                    Ethereum counterparts already trading in the secondary market for over 100 ETH a piece\n                  ")])]), t._v(" "), o("div", {
+                    }, [t._v("\n                    ThunderZeta is among the first high-quality art projects on Thundercore still nascent NFT landscape.\n                    With their\n                    Ethereum counterparts already trading in the secondary market for over 100 ETH a piece\n                  ")])]), t._v(" "), o("div", {
                         staticClass: "row gutter-vr-20px flex-wrap"
                     }, [o("div", {
                         staticClass: "col-sm-6"
@@ -414,7 +413,7 @@
                         staticClass: "icon fas fa-check"
                     })]), t._v(" "), o("div", {
                         staticClass: "feature-text feature-text-s1"
-                    }, [o("h6", [t._v("MARKETPLACE")]), t._v(" "), o("p", [t._v("Market place where you can trade your Heco Bored Apes Yacht Club")])])])]), t._v(" "), o("div", {
+                    }, [o("h6", [t._v("MARKETPLACE")]), t._v(" "), o("p", [t._v("Market place where you can trade your Thundercore Thunder Zeta")])])])]), t._v(" "), o("div", {
                         staticClass: "col-sm-6"
                     }, [o("div", {
                         staticClass: "feature feature-s1 animated",
@@ -428,7 +427,7 @@
                         staticClass: "icon fas fa-check"
                     })]), t._v(" "), o("div", {
                         staticClass: "feature-text feature-text-s1"
-                    }, [o("h6", [t._v("ERC-721")]), t._v(" "), o("p", [t._v("The apes are stored as ERC-721 tokens on the Heco blockchain and hosted on IPFS.\n                          Purchasing an ape costs 5 HT.")])])])]), t._v(" "), o("div", {
+                    }, [o("h6", [t._v("ERC-721")]), t._v(" "), o("p", [t._v("The Zetas are stored as ERC-721 tokens on the Thundercore blockchain and hosted on IPFS.\n                          Purchasing an zeta costs 5 TT.")])])])]), t._v(" "), o("div", {
                         staticClass: "col-sm-6"
                     }, [o("div", {
                         staticClass: "feature feature-s1 animated",
@@ -456,8 +455,8 @@
                         staticClass: "icon fas fa-check"
                     })]), t._v(" "), o("div", {
                         staticClass: "feature-text feature-text-s1"
-                    }, [o("h6", [t._v("Rarity")]), t._v(" "), o("p", [t._v("10,000 Provably-rare Bored Ape tokens.")])])])])])])])])])])
-                }, function() {
+                    }, [o("h6", [t._v("Rarity")]), t._v(" "), o("p", [t._v("10,000 Provably-rare Thunder Zeta tokens.")])])])])])])])])])])
+                }, function () {
                     var t = this,
                         e = t.$createElement,
                         o = t._self._c || e;
@@ -512,7 +511,7 @@
                         staticClass: "roadmap-title roadmap-title-s1"
                     }, [t._v("Build Tech")])]), t._v(" "), o("ul", {
                         staticClass: "roadmap-step-list roadmap-step-list-s1"
-                    }, [o("li", [t._v("Build Smart Contract")]), t._v(" "), o("li", [t._v("Redesign All Apes Backgrounds")])])])])]), t._v(" "), o("div", {
+                    }, [o("li", [t._v("Build Smart Contract")]), t._v(" "), o("li", [t._v("Redesign All Zetas Backgrounds")])])])])]), t._v(" "), o("div", {
                         staticClass: "col-lg"
                     }, [o("div", {
                         staticClass: "roadmap roadmap-s1 roadmap-done text-lg-center"
@@ -554,7 +553,7 @@
                         staticClass: "roadmap-title roadmap-title-s1"
                     }, [t._v("Launch minting!")])]), t._v(" "), o("ul", {
                         staticClass: "roadmap-step-list roadmap-step-list-s1"
-                    }, [o("li", [t._v("Start at\n                                "), o("h5", [t._v("\n                                  Thursday,January 6,2022 at 10AM GMT\n                                ")])])])])])])])]), t._v(" "), o("div", {
+                    }, [o("li", [t._v("Start at\n                                "), o("h5", [t._v("\n                                  May 27, 2022 at 12:00 GMT\n                                ")])])])])])])])]), t._v(" "), o("div", {
                         staticClass: "roadmap-wrap roadmap-wrap-s1 mb-0"
                     }, [o("div", {
                         staticClass: "row flex-row-reverse no-gutters"
@@ -586,7 +585,7 @@
                         staticClass: "roadmap-title roadmap-title-s1"
                     }, [t._v("Sold out")])]), t._v(" "), o("ul", {
                         staticClass: "roadmap-step-list roadmap-step-list-s1"
-                    }, [o("li", [t._v("All Heco Ape sold out!")])])])])]), t._v(" "), o("div", {
+                    }, [o("li", [t._v("All Thundercore Zetas sold out!")])])])])]), t._v(" "), o("div", {
                         staticClass: "col-lg"
                     }, [o("div", {
                         staticClass: "roadmap roadmap-s1 text-lg-center"
@@ -635,7 +634,7 @@
                     }, [o("li", [t._v("More details coming soon, Make sure to follow us on socials.")])])])])])])])])])])])]), t._v(" "), o("div", {
                         staticClass: "nk-ovm shape-n"
                     })])
-                }, function() {
+                }, function () {
                     var t = this,
                         e = t.$createElement,
                         o = t._self._c || e;
@@ -677,8 +676,9 @@
                     }, [o("div", {
                         staticClass: "team-photo"
                     }, [o("img", {
+                        staticClass: "tiltImageSm",
                         attrs: {
-                            src: "https://polygonapes.com/assets/BaycImages/poly/446.png",
+                            src: "/assets/zetas/2.png",
                             alt: "team"
                         }
                     }), t._v(" "), o("ul", {
@@ -698,8 +698,9 @@
                     }, [o("div", {
                         staticClass: "team-photo"
                     }, [o("img", {
+                        staticClass: "tiltImageSm",
                         attrs: {
-                            src: "https://polygonapes.com/assets/BaycImages/poly/60.png",
+                            src: "/assets/zetas/3.png",
                             alt: "team"
                         }
                     }), t._v(" "), o("ul", {
@@ -719,8 +720,9 @@
                     }, [o("div", {
                         staticClass: "team-photo"
                     }, [o("img", {
+                        staticClass: "tiltImageSm",
                         attrs: {
-                            src: "https://polygonapes.com/assets/BaycImages/poly/7495.png",
+                            src: "/assets/zetas/4.png",
                             alt: "team"
                         }
                     }), t._v(" "), o("ul", {
@@ -740,8 +742,9 @@
                     }, [o("div", {
                         staticClass: "team-photo"
                     }, [o("img", {
+                        staticClass: "tiltImageSm",
                         attrs: {
-                            src: "https://polygonapes.com/assets/BaycImages/poly/52.png",
+                            src: "/assets/zetas/5.png",
                             alt: "team"
                         }
                     }), t._v(" "), o("ul", {
@@ -766,13 +769,8 @@
                         staticClass: "col-md-6"
                     }, [o("div", {
                         staticClass: "team-photo"
-                    }, [o("img", {
-                        attrs: {
-                            src: "/assets/images/team/d-color.jpg",
-                            alt: "team"
-                        }
-                    })])])])])])])])])])
-                }, function() {
+                    }, [])])])])])])])])])
+                }, function () {
                     var t = this,
                         e = t.$createElement,
                         o = t._self._c || e;
@@ -818,7 +816,7 @@
                             "data-toggle": "collapse",
                             "data-target": "#faq-36-1"
                         }
-                    }, [t._v("What is\n                    the Heco Ape project? "), o("span", {
+                    }, [t._v("What is\n                    the Thundercore Zetas project? "), o("span", {
                         staticClass: "accordion-icon accordion-icon-s1"
                     })]), t._v(" "), o("div", {
                         staticClass: "collapse show",
@@ -828,7 +826,7 @@
                         }
                     }, [o("div", {
                         staticClass: "accordion-content"
-                    }, [o("p", [t._v(" HecoApes, is an exclusive 10,000 only mint-able premium NFT. No two pieces of these 10,000\n                        digital beauties are alike. Each being unique and pristine, there is an order of rarity that\n                        makes certain ones more valuable than the others. each Bored Ape is inspired by its Ethereum\n                        counterpart.")])])])]), t._v(" "), o("div", {
+                    }, [o("p", [t._v(" ThunderZeta, is an exclusive 10,000 only mint-able premium NFT. No two pieces of these 10,000\n                        digital beauties are alike. Each being unique and pristine, there is an order of rarity that\n                        makes certain ones more valuable than the others. each Thunder Zeta is inspired by its Ethereum\n                        counterpart.")])])])]), t._v(" "), o("div", {
                         staticClass: "accordion-item accordion-item-s3"
                     }, [o("h5", {
                         staticClass: "accordion-title accordion-title-sm collapsed",
@@ -854,7 +852,7 @@
                             "data-toggle": "collapse",
                             "data-target": "#faq-36-3"
                         }
-                    }, [t._v("How much does an ape cost? "), o("span", {
+                    }, [t._v("How much does a zeta cost? "), o("span", {
                         staticClass: "accordion-icon accordion-icon-s1"
                     })]), t._v(" "), o("div", {
                         staticClass: "collapse",
@@ -864,7 +862,7 @@
                         }
                     }, [o("div", {
                         staticClass: "accordion-content"
-                    }, [o("p", [t._v("Each ape costs 5 HT(+gas) with a maximum mint of 20 Apes. Find out more about our Mint\n                        Time in our Discord.")])])])]), t._v(" "), o("div", {
+                    }, [o("p", [t._v("Each zeta costs 5 TT(+gas) with a maximum mint of 20 Zetas. Find out more about our Mint\n                        Time in our Discord.")])])])]), t._v(" "), o("div", {
                         staticClass: "accordion-item accordion-item-s3"
                     }, [o("h5", {
                         staticClass: "accordion-title accordion-title-sm collapsed",
@@ -900,10 +898,10 @@
                         }
                     }, [o("div", {
                         staticClass: "accordion-content"
-                    }, [o("p", [t._v("just head straight to the source https://metamask.io/")]), t._v(" "), o("p", [t._v("How to view Polygon token on Metamask\n                        "), o("a", {
+                    }, [o("p", [t._v("just head straight to the source https://metamask.io/")]), t._v(" "), o("p", [t._v("How to view Thundercore token on Metamask\n                        "), o("a", {
                         attrs: {
                             target: "_blank",
-                            href: "https://autofarm.gitbook.io/autofarm-network/how-tos/huobi-eco-chain-heco/metamask-add-huobi-eco-chain-heco-network"
+                            href: "https://autofarm.gitbook.io/autofarm-network/how-tos/huobi-eco-chain-thundercore/metamask-add-huobi-eco-chain-thundercore-network"
                         }
                     }, [t._v("Click\n                          here")])])])])]), t._v(" "), o("div", {
                         staticClass: "accordion-item accordion-item-s3"
@@ -924,7 +922,7 @@
                     }, [o("div", {
                         staticClass: "accordion-content"
                     }, [o("p", [t._v("Yup, you need some HT. You can buy it on binance or even directly from the Metamask\n                        Wallet. ")])])])])])])])])])
-                }, function() {
+                }, function () {
                     var t = this,
                         e = t.$createElement,
                         o = t._self._c || e;
@@ -940,7 +938,7 @@
                             "data-animate": "fadeInUp",
                             "data-delay": ".1"
                         }
-                    }, [t._v("Some Rare Apes")]), t._v(" "), o("p", [t._v("Still available some rare mint before all gone ")])]), t._v(" "), o("div", {
+                    }, [t._v("Some Rare Zetas")]), t._v(" "), o("p", [t._v("Still available some rare mint before all gone ")])]), t._v(" "), o("div", {
                         staticClass: "nk-block"
                     }, [o("div", {
                         staticClass: "has-carousel carousel-nav-center",
@@ -956,13 +954,15 @@
                     }, [o("div", {
                         staticClass: "team-photo"
                     }, [o("img", {
+                        staticClass: "tiltImageSm",
                         attrs: {
-                            src: "https://polygonapes.com/assets/BaycImages/poly/7495.png",
-                            alt: ""
+                            src: "/assets/zetas/6.png",
+                            alt: "", 
+                            "data-tilt": ""
                         }
                     })]), t._v(" "), o("h5", {
                         staticClass: "team-name title title-md"
-                    }, [t._v("Ape #7495")]), t._v(" "), o("span", {
+                    }, [t._v("Zeta #7495")]), t._v(" "), o("span", {
                         staticClass: "team-position"
                     }, [t._v("Rarity Rank #1")])])]), t._v(" "), o("div", {
                         staticClass: "item"
@@ -971,13 +971,15 @@
                     }, [o("div", {
                         staticClass: "team-photo"
                     }, [o("img", {
+                        staticClass: "tiltImageSm",
                         attrs: {
-                            src: "https://polygonapes.com/assets/BaycImages/poly/3953.png",
-                            alt: ""
+                            src: "/assets/zetas/7.png",
+                            alt: "", 
+                            "data-tilt": ""
                         }
                     })]), t._v(" "), o("h5", {
                         staticClass: "team-name title title-md"
-                    }, [t._v("Ape #3953")]), t._v(" "), o("span", {
+                    }, [t._v("Zeta #3953")]), t._v(" "), o("span", {
                         staticClass: "team-position"
                     }, [t._v("Rarity Rank #2")])])]), t._v(" "), o("div", {
                         staticClass: "item"
@@ -986,13 +988,15 @@
                     }, [o("div", {
                         staticClass: "team-photo"
                     }, [o("img", {
+                        staticClass: "tiltImageSm",
                         attrs: {
-                            src: "https://polygonapes.com/assets/BaycImages/poly/9606.png",
-                            alt: ""
+                            src: "/assets/zetas/8.png",
+                            alt: "", 
+                            "data-tilt": ""
                         }
                     })]), t._v(" "), o("h5", {
                         staticClass: "team-name title title-md"
-                    }, [t._v("Ape #9606")]), t._v(" "), o("span", {
+                    }, [t._v("Zeta #9606")]), t._v(" "), o("span", {
                         staticClass: "team-position"
                     }, [t._v("Rarity Rank #3")])])]), t._v(" "), o("div", {
                         staticClass: "item"
@@ -1001,13 +1005,15 @@
                     }, [o("div", {
                         staticClass: "team-photo"
                     }, [o("img", {
+                        staticClass: "tiltImageSm",
                         attrs: {
-                            src: "https://polygonapes.com/assets/BaycImages/poly/7616.png",
-                            alt: ""
+                            src: "/assets/zetas/9.png",
+                            alt: "", 
+                            "data-tilt": ""
                         }
                     })]), t._v(" "), o("h5", {
                         staticClass: "team-name title title-md"
-                    }, [t._v("Ape #7616")]), t._v(" "), o("span", {
+                    }, [t._v("Zeta #7616")]), t._v(" "), o("span", {
                         staticClass: "team-position"
                     }, [t._v("Rarity Rank #4")])])]), t._v(" "), o("div", {
                         staticClass: "item"
@@ -1016,13 +1022,15 @@
                     }, [o("div", {
                         staticClass: "team-photo"
                     }, [o("img", {
+                        staticClass: "tiltImageSm",
                         attrs: {
-                            src: "https://polygonapes.com/assets/BaycImages/poly/4873.png",
-                            alt: ""
+                            src: "/assets/zetas/10.png",
+                            alt: "", 
+                            "data-tilt": ""
                         }
                     })]), t._v(" "), o("h5", {
                         staticClass: "team-name title title-md"
-                    }, [t._v("Ape #4873")]), t._v(" "), o("span", {
+                    }, [t._v("Zeta #4873")]), t._v(" "), o("span", {
                         staticClass: "team-position"
                     }, [t._v("Rarity Rank #5")])])]), t._v(" "), o("div", {
                         staticClass: "item"
@@ -1031,13 +1039,15 @@
                     }, [o("div", {
                         staticClass: "team-photo"
                     }, [o("img", {
+                        staticClass: "tiltImageSm",
                         attrs: {
-                            src: "https://polygonapes.com/assets/BaycImages/poly/8811.png",
-                            alt: ""
+                            src: "/assets/zetas/11.png",
+                            alt: "",
+                            "data-tilt": ""
                         }
                     })]), t._v(" "), o("h5", {
                         staticClass: "team-name title title-md"
-                    }, [t._v("Ape #8811")]), t._v(" "), o("span", {
+                    }, [t._v("Zeta #8811")]), t._v(" "), o("span", {
                         staticClass: "team-position"
                     }, [t._v("Rarity Rank #6")])])]), t._v(" "), o("div", {
                         staticClass: "item"
@@ -1046,13 +1056,15 @@
                     }, [o("div", {
                         staticClass: "team-photo"
                     }, [o("img", {
+                        staticClass: "tiltImageSm",
                         attrs: {
-                            src: "https://polygonapes.com/assets/BaycImages/poly/8135.png",
-                            alt: ""
+                            src: "/assets/zetas/12.png",
+                            alt: "", 
+                            "data-tilt": ""
                         }
                     })]), t._v(" "), o("h5", {
                         staticClass: "team-name title title-md"
-                    }, [t._v("Ape #8135")]), t._v(" "), o("span", {
+                    }, [t._v("Zeta #8135")]), t._v(" "), o("span", {
                         staticClass: "team-position"
                     }, [t._v("Rarity Rank #7")])])]), t._v(" "), o("div", {
                         staticClass: "item"
@@ -1061,13 +1073,15 @@
                     }, [o("div", {
                         staticClass: "team-photo"
                     }, [o("img", {
+                        staticClass: "tiltImageSm",
                         attrs: {
-                            src: "https://polygonapes.com/assets/BaycImages/poly/446.png",
-                            alt: ""
+                            src: "/assets/zetas/13.png",
+                            alt: "", 
+                            "data-tilt": ""
                         }
                     })]), t._v(" "), o("h5", {
                         staticClass: "team-name title title-md"
-                    }, [t._v("Ape #446")]), t._v(" "), o("span", {
+                    }, [t._v("Zeta #446")]), t._v(" "), o("span", {
                         staticClass: "team-position"
                     }, [t._v("Rarity Rank #8")])])]), t._v(" "), o("div", {
                         staticClass: "item"
@@ -1076,13 +1090,15 @@
                     }, [o("div", {
                         staticClass: "team-photo"
                     }, [o("img", {
+                        staticClass: "tiltImageSm",
                         attrs: {
-                            src: "https://polygonapes.com/assets/BaycImages/poly/2087.png",
-                            alt: ""
+                            src: "/assets/zetas/14.png",
+                            alt: "", 
+                            "data-tilt": ""
                         }
                     })]), t._v(" "), o("h5", {
                         staticClass: "team-name title title-md"
-                    }, [t._v("Ape #2087")]), t._v(" "), o("span", {
+                    }, [t._v("Zeta #2087")]), t._v(" "), o("span", {
                         staticClass: "team-position"
                     }, [t._v("Rarity Rank #9")])])]), t._v(" "), o("div", {
                         staticClass: "item"
@@ -1091,16 +1107,18 @@
                     }, [o("div", {
                         staticClass: "team-photo"
                     }, [o("img", {
+                        staticClass: "tiltImageSm",
                         attrs: {
-                            src: "https://polygonapes.com/assets/BaycImages/poly/73.png",
-                            alt: ""
+                            src: "/assets/zetas/15.png",
+                            alt: "", 
+                            "data-tilt": ""
                         }
                     })]), t._v(" "), o("h5", {
                         staticClass: "team-name title title-md"
-                    }, [t._v("Ape #73")]), t._v(" "), o("span", {
+                    }, [t._v("Zeta #73")]), t._v(" "), o("span", {
                         staticClass: "team-position"
                     }, [t._v("Rarity Rank #10")])])])])])])])
-                }, function() {
+                }, function () {
                     var t = this,
                         e = t.$createElement,
                         o = t._self._c || e;
@@ -1121,7 +1139,7 @@
                             "data-animate": "fadeInUp",
                             "data-delay": ".1"
                         }
-                    }, [t._v("Contact Heco Apes")]), t._v(" "), o("p", {
+                    }, [t._v("Contact Thundercore Zetas")]), t._v(" "), o("p", {
                         staticClass: "animated",
                         attrs: {
                             "data-animate": "fadeInUp",
@@ -1162,7 +1180,7 @@
                         staticClass: "contact-text"
                     }, [o("a", {
                         attrs: {
-                            href: "https://t.me/hecoapes",
+                            href: "https://t.me/thundercorezetas",
                             target: "_blank"
                         }
                     }, [o("span", [t._v("Join our Telegram")])])])]), t._v(" "), o("li", {
@@ -1177,7 +1195,7 @@
                         staticClass: "contact-text"
                     }, [o("a", {
                         attrs: {
-                            href: "https://twitter.com/hecoapes",
+                            href: "https://twitter.com/thundercorezetas",
                             target: "_blank"
                         }
                     }, [o("span", [t._v("Join our Twitter")])])])]), t._v(" "), o("li", {
@@ -1192,7 +1210,7 @@
                         staticClass: "contact-text"
                     }, [o("a", {
                         attrs: {
-                            href: "https://hecoapes.medium.com/",
+                            href: "https://thundercorezetas.medium.com/",
                             target: "_blank"
                         }
                     }, [o("span", [t._v("Join our Medium")])])])])])])])])])])

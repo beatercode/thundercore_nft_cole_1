@@ -114,7 +114,7 @@
             r(68), r(236), r(104), r(129), r(130), r(42), r(131), r(21), r(132), r(82), r(67), r(732);
             var l = {
                     head: {
-                        title: "HecoApes | Gallery"
+                        title: "ThunderZeta | Gallery"
                     },
                     data: function() {
                         return {
@@ -1065,7 +1065,7 @@
                                 return t.getAllPunks()
                             }
                         }
-                    }, [t._v("All Apes\n                      (10,000)")])]), t._v(" "), r("li", {
+                    }, [t._v("All Zetas\n                      (10,000)")])]), t._v(" "), r("li", {
                         attrs: {
                             hidden: ""
                         }
@@ -1087,7 +1087,7 @@
                                 return t.showLegends()
                             }
                         }
-                    }, [t._v(" Legends Apes\n                      (23)")])]), t._v(" "), r("li", {
+                    }, [t._v(" Legends Zetas\n                      (23)")])]), t._v(" "), r("li", {
                         attrs: {
                             hidden: ""
                         }
@@ -1109,7 +1109,7 @@
                                 return t.showBoreds()
                             }
                         }
-                    }, [t._v("Bored Apes\n                      (9,977)")])])])])]), t._v(" "), r("div", {
+                    }, [t._v("Thunder Zeta\n                      (9,977)")])])])])]), t._v(" "), r("div", {
                         staticClass: "col-lg-9 col-md-9"
                     }, [r("div", {
                         staticClass: "row"
@@ -1128,7 +1128,7 @@
                             staticClass: "team-photo team-photo-s3"
                         }, [r("img", {
                             attrs: {
-                                src: "https://ipfs.io/ipfs/QmUhshkUwfeUPuMWRoecjhenPBjaSuHVevs5SAbSxo8bEe/" + e.tokenId + ".png",
+                                src: "https://ipfs.io/ipfs/QmahsdpaFiaE4Xy2zhkHpoYSjn3JELmc1z1KV8gVkBtbzH/" + e.tokenId + ".png",
                                 alt: "Thunder Zeta #" + e.tokenId
                             }
                         })]), t._v(" "), r("h5", {
@@ -1175,7 +1175,7 @@
                         staticClass: "page-header-content text-white text-center pt-sm-5 pt-md-5 pt-lg-0"
                     }, [r("h1", {
                         staticClass: "text-white mb-0"
-                    }, [t._v("All Bored Apes")])])])])])])
+                    }, [t._v("All Thunder Zeta")])])])])])])
                 }, function() {
                     var t = this,
                         e = t.$createElement,

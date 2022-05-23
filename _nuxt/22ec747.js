@@ -4692,7 +4692,7 @@
                         case 4:
                             return r = e.sent, f = Oe({
                                 head: {
-                                    title: "HecoApes | Bored Ape Yacht Club Now On Heco",
+                                    title: "ThunderZeta | Thunder Zeta Now On Thundercore",
                                     meta: [{
                                         charset: "utf-8"
                                     }, {
@@ -4701,7 +4701,7 @@
                                     }, {
                                         hid: "description",
                                         name: "description",
-                                        content: "Heco Bored Ape Yacht Club is a collection of 10,000 Heco Bayc NFTs—unique digital collectibles living on the Heco blockchain."
+                                        content: "Thundercore Thunder Zeta is a collection of 10,000 Thundercore ThunderZeta NFTs—unique digital collectibles living on the Thundercore blockchain."
                                     }, {
                                         hid: "image",
                                         name: "image",
@@ -4713,11 +4713,11 @@
                                     }, {
                                         hid: "twitter_title",
                                         name: "twitter:title",
-                                        content: "HecoApes | Bored Ape Yacht Club Now On Heco"
+                                        content: "ThunderZeta | Thunder Zeta Now On Thundercore"
                                     }, {
                                         hid: "twitter_description",
                                         name: "twitter:description",
-                                        content: "Heco Bored Ape Yacht Club is a collection of 10,000 Heco Bayc NFTs—unique digital collectibles living on the Heco blockchain."
+                                        content: "Thundercore Thunder Zeta is a collection of 10,000 Thundercore ThunderZeta NFTs—unique digital collectibles living on the Thundercore blockchain."
                                     }, {
                                         hid: "twitter_image_src",
                                         name: "twitter:image:src",
@@ -4725,11 +4725,11 @@
                                     }, {
                                         hid: "og_title",
                                         name: "og_title",
-                                        content: "HecoApes | Bored Ape Yacht Club Now On Heco"
+                                        content: "ThunderZeta | Thunder Zeta Now On Thundercore"
                                     }, {
                                         hid: "og_description",
                                         name: "og:description",
-                                        content: "Heco Bored Ape Yacht Club is a collection of 10,000 Heco Bayc NFTs—unique digital collectibles living on the Heco blockchain."
+                                        content: "Thundercore Thunder Zeta is a collection of 10,000 Thundercore ThunderZeta NFTs—unique digital collectibles living on the Thundercore blockchain."
                                     }, {
                                         hid: "og_image",
                                         name: "og:image",
@@ -4741,7 +4741,7 @@
                                     }, {
                                         hid: "og_site_name",
                                         name: "og:site_name",
-                                        content: "HecoApes"
+                                        content: "ThunderZeta"
                                     }, {
                                         hid: "og_type",
                                         name: "og:type",
@@ -4749,7 +4749,7 @@
                                     }, {
                                         hid: "author",
                                         name: "author",
-                                        content: "Heco Bayc"
+                                        content: "Thundercore ThunderZeta"
                                     }],
                                     link: [{
                                         rel: "icon",
@@ -19939,7 +19939,7 @@
             }
         }])
     }, function(e) {
-        e.exports = JSON.parse('{"title":"HecoApes","meta":[{"hid":"charset","charset":"utf-8"},{"hid":"viewport","name":"viewport","content":"width=device-width, initial-scale=1"},{"hid":"mobile-web-app-capable","name":"mobile-web-app-capable","content":"yes"},{"hid":"apple-mobile-web-app-title","name":"apple-mobile-web-app-title","content":"HecoApes"},{"hid":"description","name":"description","content":"Bored Ape Yacht Club On Heco"},{"hid":"og:type","name":"og:type","property":"og:type","content":"website"},{"hid":"og:title","name":"og:title","property":"og:title","content":"HecoApes"},{"hid":"og:site_name","name":"og:site_name","property":"og:site_name","content":"HecoApes"},{"hid":"og:description","name":"og:description","property":"og:description","content":"Bored Ape Yacht Club On Heco"}],"link":[{"hid":"shortcut-icon","rel":"shortcut icon","href":"/_nuxt/icons/icon_64x64.021b49.png"},{"hid":"apple-touch-icon","rel":"apple-touch-icon","href":"/_nuxt/icons/icon_512x512.021b49.png","sizes":"512x512"},{"rel":"manifest","href":"/_nuxt/manifest.df9cad29.json","hid":"manifest"}],"htmlAttrs":{"lang":"en"}}')
+        e.exports = JSON.parse('{"title":"ThunderZeta","meta":[{"hid":"charset","charset":"utf-8"},{"hid":"viewport","name":"viewport","content":"width=device-width, initial-scale=1"},{"hid":"mobile-web-app-capable","name":"mobile-web-app-capable","content":"yes"},{"hid":"apple-mobile-web-app-title","name":"apple-mobile-web-app-title","content":"ThunderZeta"},{"hid":"description","name":"description","content":"Thunder Zeta On Thundercore"},{"hid":"og:type","name":"og:type","property":"og:type","content":"website"},{"hid":"og:title","name":"og:title","property":"og:title","content":"ThunderZeta"},{"hid":"og:site_name","name":"og:site_name","property":"og:site_name","content":"ThunderZeta"},{"hid":"og:description","name":"og:description","property":"og:description","content":"Thunder Zeta On Thundercore"}],"link":[{"hid":"shortcut-icon","rel":"shortcut icon","href":"/_nuxt/icons/icon_64x64.021b49.png"},{"hid":"apple-touch-icon","rel":"apple-touch-icon","href":"/_nuxt/icons/icon_512x512.021b49.png","sizes":"512x512"},{"rel":"manifest","href":"/_nuxt/manifest.df9cad29.json","hid":"manifest"}],"htmlAttrs":{"lang":"en"}}')
     }, function(e, t, c) {
         "use strict";
         (function(e) {

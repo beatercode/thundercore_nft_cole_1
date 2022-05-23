@@ -23,7 +23,7 @@
             var l = n(14),
                 r = (n(55), n(104), {
                     head: {
-                        title: "HecoApes | My Mints"
+                        title: "ThunderZeta | My Mints"
                     },
                     data: function() {
                         return {
@@ -124,7 +124,7 @@
                         staticClass: "bring-to-front",
                         attrs: {
                             target: "_blank",
-                            href: "https://hecoinfo.com/address/" + this.walletAddress
+                            href: "https://scan.thundercore.com/address/" + this.walletAddress
                         }
                     }, [t._v("\n                " + t._s(t.walletAddress) + "\n              ")]) : t._e()])])])])]), t._v(" "), n("div", {
                         staticClass: "module ptb-100"
@@ -183,7 +183,7 @@
                         attrs: {
                             to: "/mint"
                         }
-                    }, [t._v("Mint")]), t._v("\n                  Some Apes\n                ")], 1)]) : t._e(), t._v(" "), n("div", {
+                    }, [t._v("Mint")]), t._v("\n                  Some Zetas\n                ")], 1)]) : t._e(), t._v(" "), n("div", {
                         staticClass: "row"
                     }, t._l(t.punks, (function(e, l) {
                         //console.log("e");
@@ -199,9 +199,8 @@
                         }, [n("img", {
                             staticClass: "img-fluid",
                             attrs: {
-                                //src: "https://polygonapes.com/assets/BaycImages/poly/" + e.tokenId + ".png",
-                                src: "https://ipfs.io/ipfs/QmUhshkUwfeUPuMWRoecjhenPBjaSuHVevs5SAbSxo8bEe/" + e.tokenId + ".png",
-                                alt: "Heco Ape #" + e.tokenId
+                                src: "https://ipfs.io/ipfs/QmahsdpaFiaE4Xy2zhkHpoYSjn3JELmc1z1KV8gVkBtbzH/" + e.tokenId + ".png",
+                                alt: "Thundercore Zeta #" + e.tokenId
                             }
                         }), t._v(" "), n("div", {
                             staticClass: "partner-heading mb-2"

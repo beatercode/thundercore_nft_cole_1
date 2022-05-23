@@ -32,7 +32,7 @@
         },
         756: function (t, e, n) {
             var r = n(233)(!1);
-            r.push([t.i, ".bg-theme{background-color:#8f1156!important}.alert.alert-info.msg-alert{width:380px}.token-action.token-action-s2.flex-wrap.flex-sm-nowrap{display:block}", ""]), t.exports = r
+            r.push([t.i, ".bg-theme{background-color:#08141C!important}.alert.alert-info.msg-alert{width:380px}.token-action.token-action-s2.flex-wrap.flex-sm-nowrap{display:block}", ""]), t.exports = r
         },
         771: function (t, e, n) {
             "use strict";
@@ -41,7 +41,7 @@
                 o = (n(55), n(104), {
                     name: "mint",
                     head: {
-                        title: "HecoApes | Mint"
+                        title: "ThunderZeta | Mint"
                     },
                     data: function () {
                         //console.log("Loading");
@@ -213,15 +213,15 @@
                     }, [n("li", [n("a", {
                         staticClass: "btn btn-md btn-primary btn-outline",
                         attrs: {
-                            href: "https://hecoinfo.com/address/" + this.$walletManager.myAddress + "/contracts",
+                            href: "https://scan.thundercore.com/address/" + this.$walletManager.myAddress + "/contracts",
                             target: "_blank"
                         }
-                    }, [t._v("Smart Contract")])]), t._v(" "), n("li", [n("nuxt-link", {
+                    }, [t._v("Smart Contract")])]), t._v(" "), n("li", [/*n("nuxt-link", {
                         staticClass: "btn btn-md btn-primary btn-outline",
                         attrs: {
                             to: "/gallery"
                         }
-                    }, [t._v("\n                              All Apes Gallery\n                            ")])], 1)])]), t._v(" "), t._m(1)])]), t._v(" "), n("div", {
+                    }, [t._v("\n                              All Zetas Gallery\n                            ")])*/], 1)])]), t._v(" "), t._m(1)])]), t._v(" "), n("div", {
                         staticClass: "col-lg-6 col-xl-5 col-md-8 col-sm-9"
                     }, [n("div", {
                         staticClass: "token-status token-status-s3 round bg-theme tc-light  "
@@ -338,7 +338,7 @@
                         staticClass: "text-primary",
                         attrs: {
                             target: "_blank",
-                            href: "https://hecoinfo.com/tx/" + t.transactionHash
+                            href: "https://scan.thundercore.com/tx/" + t.transactionHash
                         }
                     }, [t._v("\n                            " + t._s(this.transactionHash.substr(0, 5)) + "\n                            ...\n                            " + t._s(this.transactionHash.substr(this.transactionHash.length - 4, this.transactionHash.length - 1)) + "\n                          ")]), t._v(" "), n("br"), t._v(" "), n("NuxtLink", {
                         staticClass: "mr-5 text-primary-alt",
@@ -354,7 +354,7 @@
                         staticClass: "text-primary",
                         attrs: {
                             target: "_blank",
-                            href: "https://hecoinfo.com/tx/" + t.transactionHash
+                            href: "https://scan.thundercore.com/tx/" + t.transactionHash
                         }
                     }, [t._v("\n                              " + t._s(this.transactionHash.substr(0, 5)) + "\n                              ...\n                              " + t._s(this.transactionHash.substr(this.transactionHash.length - 4, this.transactionHash.length - 1)) + "\n                            ")])]) : t._e(), t._v(" "), 1 != t.walletStatus ? n("button", {
                         staticClass: "btn btn-primary rounded",
@@ -379,7 +379,7 @@
                         staticClass: "cpn-head mt-0"
                     }, [n("h1", {
                         staticClass: "title title-thin title-xl-2  "
-                    }, [t._v("Mint Bored Ape Yacht Club On Heco")])])
+                    }, [t._v("Mint Thunder Zeta On Thundercore")])])
                 }, function () {
                     var t = this,
                         e = t.$createElement,
@@ -394,7 +394,7 @@
                         staticClass: " "
                     }, [n("a", {
                         attrs: {
-                            href: "https://t.me/hecoapes",
+                            href: "https://t.me/thundercorezetas",
                             target: "_blank"
                         }
                     }, [n("em", {
@@ -403,7 +403,7 @@
                         staticClass: " "
                     }, [n("a", {
                         attrs: {
-                            href: "https://twitter.com/HecoApes",
+                            href: "https://twitter.com/ThunderZeta",
                             target: "_blank"
                         }
                     }, [n("em", {
